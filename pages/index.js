@@ -5,6 +5,7 @@ import styled from 'styled-components'
 
 import ResumeButton from '../comp/Resume'
 import ProfilePicture from '../comp/ProfilePic'
+import TechnologyCard from '../comp/Technology'
 
 const Par = styled.p`
   font-family: 'Heebo';
@@ -19,6 +20,10 @@ const Header = styled.p`
   font-weight: 300;
   margin: 0px;
   padding: 0px;
+`
+
+const Box21 = styled.div`
+  padding-top: 20px;
 `
 
 export default function Home() {
@@ -46,7 +51,41 @@ export default function Home() {
         </div>
 
         <div className={styles.section2}>
-          <h1>My Toolkit👨‍💻</h1>
+          <Box21>
+            <span className={styles.name}>My Toolkit👨‍💻</span>
+          </Box21>
+
+          <div className={styles.cards}>
+            <TechnologyCard
+              img="./js.png"
+              title="JavaScript"
+            />
+            <TechnologyCard
+              img="./react.png"
+              title="React and React Native"
+            />
+            <TechnologyCard
+              img="./next.png"
+              title="Next.js"
+            />
+            <TechnologyCard
+              img="./node.png"
+              title="Node.js"
+            />
+            <TechnologyCard
+              img="./git.png"
+              title="Git"
+            />
+            <TechnologyCard
+              img="./figma.png"
+              title="Figma"
+            />
+            <TechnologyCard
+              img="./styled.png"
+              title="Styled-components"
+            />
+          </div>
+
         </div>
       </div>
 
