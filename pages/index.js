@@ -36,7 +36,7 @@ export default function Home() {
           <div className={styles.box1}>
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
             <span className={styles.name}>Front-end Developer</span>
-            <Par>I'm striving to join the ever-groing technology industry with an active passion for web/app development. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development</Par>
+            <Par>I'm striving to join the ever-groing technology industry with an active passion for web/app development. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development.</Par>
             <ResumeButton />
           </div>
 
