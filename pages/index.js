@@ -34,15 +34,19 @@ export default function Home() {
 
         <div className={styles.section1}>
           <div className={styles.box1}>
-            <Header>Hello! <span className={styles.name}>I am Raha!</span></Header>
+            <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
             <span className={styles.name}>Front-end Developer</span>
-            <Par>Front-end developer striving to join the ever-going technology industry with an active passion for web/app development. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development.</Par>
+            <Par>I'm striving to join the ever-groing technology industry with an active passion for web/app development. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development</Par>
             <ResumeButton />
           </div>
 
           <div className={styles.box2}>
             <ProfilePicture />
           </div>
+        </div>
+
+        <div className={styles.section2}>
+          <h1>My Toolkit👨‍💻</h1>
         </div>
       </div>
 

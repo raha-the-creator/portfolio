@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap');
 
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
+  /* justify-content: center; */
 }
 
 .name {
@@ -17,32 +15,51 @@
 
 .section1 {
   display: flex;
-  flex-flow: row wrap;
-  justify-content:space-between;
-  max-width: 60vw;
+  /* width: 61vw; */
+  justify-content:center;
+  align-items: center;
+  margin-top: 100px;
+  /* border: 1px solid black; */
 }
 
 .box1 {
   display: flex;
-  flex: 1.4;
-  border: 1px solid black;
+  flex: 0.5;
+  /* border: 1px solid black; */
   flex-direction: column;
   padding: 20px;
 }
 
 .box2 {
   display: flex;
-  flex: 0.5;
-  border: 1px solid black;
+  flex: 0.2s;
+  /* border: 1px solid red; */
   justify-content: center;
   padding: 20px;
 }
 
-@media (max-width: 600px) {
+.section2 {
+  background-color: #EDF7FA;
+  width: 100vw;
+  padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .section1 {
+    display: flex;
+    width: 480px;
+    justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
   }
   .box1 {
+    display: flex;
+    justify-content: center;
     order: 2;
   }
   .box2 {
