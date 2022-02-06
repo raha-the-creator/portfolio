@@ -3,6 +3,7 @@
 .container {
   display: flex;
   width: 100vw;
+  /* overflow-x: hidden; */
   /* height: 100vh;
   width: 100vw; */
   /* justify-content: center; */
@@ -53,6 +54,29 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #EDF7FA;
+  width: 100vw;
+  padding: 30px;
 }
 
 @media (max-width: 480px) {

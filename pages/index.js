@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import ResumeButton from '../comp/Resume'
 import ProfilePicture from '../comp/ProfilePic'
 import TechnologyCard from '../comp/Technology'
+import ProjectCard from '../comp/Project'
 
 const Par = styled.p`
   font-family: 'Heebo';
@@ -24,6 +25,12 @@ const Header = styled.p`
 
 const Box21 = styled.div`
   padding-top: 20px;
+  padding-bottom: 10px;
+`
+
+const Line = styled.div`
+  background-color: #E0E0E0;
+  height: 1px;
 `
 
 export default function Home() {
@@ -85,7 +92,41 @@ export default function Home() {
               title="Styled-components"
             />
           </div>
+        </div>
 
+        <div className={styles.section3}>
+          <span className={styles.name}>Featured works</span>
+          <div className={styles.projects}>
+            <ProjectCard
+              img="./procon.png"
+              title="ProCon"
+              year="2021"
+              type="Front-end Development"
+              desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+            />
+            <Line />
+            <ProjectCard
+              img="./canadacomputers.png"
+              title="Canada Computers - Redesign"
+              year="2020"
+              type="UI/UX"
+              desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+            />
+            <Line />
+            <ProjectCard
+              img="./procon.png"
+              title="ProCon"
+              year="2021"
+              type="Front-end Development"
+              desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+            />
+          </div>
+        </div>
+
+        <div className={styles.footer}>
+          <p>Telegram</p>
+          <p>LinkedIn</p>
+          <p>GitHub</p>
         </div>
       </div>
 
