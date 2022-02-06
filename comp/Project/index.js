@@ -55,6 +55,12 @@ const Line = styled.div`
     border-radius: 25%;
 `
 
+const PrTitle = styled.span`
+    font-size: 30px;
+    font-family: 'Heebo';
+    font-weight: 700;
+`
+
 const ProjectCard = (props) => {
     return <>
         <Wrapper>
@@ -63,7 +69,7 @@ const ProjectCard = (props) => {
                 {/* <Picture /> */}
             </ProjectImg>
             <ProjectDesc>
-                <h3>{props.title}</h3>
+                <PrTitle>{props.title}</PrTitle>
                 <ProjectTags>
                     <Time>{props.year}</Time>
                     <Type>{props.type}</Type>
