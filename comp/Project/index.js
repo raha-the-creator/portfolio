@@ -41,6 +41,8 @@ const Time = styled.div`
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
+    font-family: 'Heebo';
+    font-weight: 900;
 `
 
 const Type = styled.p`
