@@ -7,6 +7,7 @@ import ResumeButton from '../comp/Resume'
 import ProfilePicture from '../comp/ProfilePic'
 import TechnologyCard from '../comp/Technology'
 import ProjectCard from '../comp/Project'
+import SocialLink from '../comp/Social'
 
 const Par = styled.p`
   font-family: 'Heebo';
@@ -102,7 +103,7 @@ export default function Home() {
               title="ProCon"
               year="2021"
               type="Front-end Development"
-              desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+              desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet"
             />
             <Line />
             <ProjectCard
@@ -124,9 +125,21 @@ export default function Home() {
         </div>
 
         <div className={styles.footer}>
-          <p>Telegram</p>
-          <p>LinkedIn</p>
-          <p>GitHub</p>
+          <SocialLink
+            img="./telegram.png"
+            title="Telegram"
+            link="https://t.me/rahatherock"
+          />
+          <SocialLink
+            img="./github.png"
+            title="GitHub"
+            link="https://github.com/raha-the-creator"
+          />
+          <SocialLink
+            img="./linkedin.png"
+            title="LinkedIn"
+            link="https://www.linkedin.com/in/rakhymzhan-duisek/"
+          />
         </div>
       </div>
 
