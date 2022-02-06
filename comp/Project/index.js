@@ -36,10 +36,10 @@ const Time = styled.div`
     justify-content: center;
     background-color: #142850;
     color: white;
-    border-radius: 50%;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 25px;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-right: 10px;
     font-family: 'Heebo';
     font-weight: 900;
@@ -63,12 +63,25 @@ const PrTitle = styled.span`
     font-weight: 700;
 `
 
+const ProjectText = styled.p`
+    padding: 0px;
+    margin-bottom: 30px;
+`
+
+const ProjectLink = styled.a`
+    background-color: #142850;
+    color: white;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15px;
+`
+
 const ProjectCard = (props) => {
     return <>
         <Wrapper>
             <ProjectImg>
                 <img src={props.img} />
-                {/* <Picture /> */}
             </ProjectImg>
             <ProjectDesc>
                 <PrTitle>{props.title}</PrTitle>
@@ -76,7 +89,8 @@ const ProjectCard = (props) => {
                     <Time>{props.year}</Time>
                     <Type>{props.type}</Type>
                 </ProjectTags>
-                <p>{props.desc}</p>
+                <ProjectText>{props.desc}</ProjectText>
+                <ProjectLink href={props.prlink}>See project</ProjectLink>
             </ProjectDesc>
         </Wrapper>
     </>
