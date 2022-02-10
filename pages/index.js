@@ -9,6 +9,10 @@ import TechnologyCard from '../comp/Technology'
 import ProjectCard from '../comp/Project'
 import SocialLink from '../comp/Social'
 
+import React, { useState, useEffect } from 'react'
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 const Par = styled.p`
   font-family: 'Heebo';
   font-size: 19px;
@@ -17,7 +21,7 @@ const Par = styled.p`
 `
 
 const Header = styled.p`
-  font-size: 44px;
+  font-size: 33px;
   font-family: 'Heebo';
   font-weight: 300;
   margin: 0px;
@@ -40,6 +44,10 @@ const GraphicDesign = styled.div`
 `
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -50,7 +58,7 @@ export default function Home() {
 
       <div className={styled.wrapper}>
 
-        <div className={styles.section1}>
+        <div className={styles.section1} data-aos="fade-down">
           <div className={styles.box1}>
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
             <span className={styles.name}>Front-end Developer</span>
@@ -63,7 +71,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.section2}>
+        <div className={styles.section2} data-aos="fade-down">
           <Box21>
             <span className={styles.name}>My Toolkit👨‍💻</span>
           </Box21>
@@ -150,7 +158,7 @@ export default function Home() {
               type="Front-end Development"
               desc="Worked with WCK team to maintain WCK's website, including but not limited to its functionality and performance.
               Assisted the team in updating the website as needed.
-              Made suggestions to the WCK team to improve the website and implement them as needed. Improvements included, but weren't limited to, adding helpful features, optimizing the website's performance, improving its responsiveness, and improving the user experience through conducting usability testings."
+              Made suggestions to the WCK team to improve the website and implement them as needed. Improvements included, but weren't limited to, adding helpful features, optimizing the website's performance, improving its responsiveness, and improving the user experience through conducting usability testings"
               prlink="https://www.wckfoundation.ca/"
             />
             <Line />
@@ -169,7 +177,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.footer}>
+        <div className={styles.footer} data-aos="fade-down">
           <SocialLink
             img="./telegram.png"
             title="Telegram"

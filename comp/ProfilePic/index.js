@@ -7,8 +7,8 @@ const Wrapper = styled.div`
 const Picture = styled.img`
     border-radius: 50%;
     content:url('./me.png');
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     z-index: 1;
 `
 
@@ -18,8 +18,8 @@ const Circle = styled.div`
     top: 13px;
     background-color: #EDF7FA;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     z-index: -1;
 `
 

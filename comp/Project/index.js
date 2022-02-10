@@ -2,6 +2,9 @@ import styled from "styled-components";
 import React, { useState, useEffect } from 'react'
 import { createMedia } from "@artsy/fresnel";
 
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
@@ -112,8 +115,12 @@ const { MediaContextProvider, Media } = createMedia({
   })
 
 const ProjectCard = (props) => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
+
     return <>
-    <MediaContextProvider>
+    <MediaContextProvider data-aos="fade-down">
         <Media at="sm">
             <MobileWrapper>
                 <ProjectImgM>
