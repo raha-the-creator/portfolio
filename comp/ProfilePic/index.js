@@ -14,8 +14,8 @@ const Picture = styled.img`
 
 const Circle = styled.div`
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 10px;
+    top: 13px;
     background-color: #EDF7FA;
     border-radius: 50%;
     width: 350px;

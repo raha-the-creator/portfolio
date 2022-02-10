@@ -31,7 +31,7 @@
   flex: 0.5;
   /* border: 1px solid black; */
   flex-direction: column;
-  padding: 20px;
+  padding: 40px;
 }
 
 .box2 {
@@ -39,7 +39,7 @@
   flex: 0.2s;
   /* border: 1px solid red; */
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .section2 {
