@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import React, { useState, useEffect } from 'react'
+import { createMedia } from "@artsy/fresnel";
 
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    width: 60vw;
+    width: 850px;
 `
 
 const ProjectImg = styled.div`
@@ -76,23 +78,76 @@ const ProjectLink = styled.a`
     padding-right: 12px;
     border-radius: 15px;
 `
+// desktop verison //
+
+// mobile version //
+const MobileWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    width: 400px;
+    flex-direction: column;
+    margin: 10px;
+`
+
+const ProjectImgM = styled.div`
+    display: flex;
+    align-items: center;
+`
+
+const ProjectDescM = styled.div`
+    padding: 25px;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+`
+
+const { MediaContextProvider, Media } = createMedia({
+    // breakpoints values can be either strings or integers
+    breakpoints: {
+      sm: 400,
+      md: 768,
+      lg: 1024,
+      xl: 1192,
+    },
+  })
 
 const ProjectCard = (props) => {
     return <>
-        <Wrapper>
-            <ProjectImg>
-                <img src={props.img} />
-            </ProjectImg>
-            <ProjectDesc>
-                <PrTitle>{props.title}</PrTitle>
-                <ProjectTags>
-                    <Time>{props.year}</Time>
-                    <Type>{props.type}</Type>
-                </ProjectTags>
-                <ProjectText>{props.desc}</ProjectText>
-                <ProjectLink href={props.prlink}>See project</ProjectLink>
-            </ProjectDesc>
-        </Wrapper>
+    <MediaContextProvider>
+        <Media at="sm">
+            <MobileWrapper>
+                <ProjectImgM>
+                    <img src={props.img} />
+                </ProjectImgM>
+                <ProjectDescM>
+                    <PrTitle>{props.title}</PrTitle>
+                    <ProjectTags>
+                        <Time>{props.year}</Time>
+                        <Type>{props.type}</Type>
+                    </ProjectTags>
+                    <ProjectText>{props.desc}</ProjectText>
+                    <ProjectLink href={props.prlink}>See project</ProjectLink>
+                </ProjectDescM>
+            </MobileWrapper>
+        </Media>
+
+        <Media greaterThan="sm">    
+            <Wrapper>
+                <ProjectImg>
+                    <img src={props.img} />
+                </ProjectImg>
+                <ProjectDesc>
+                    <PrTitle>{props.title}</PrTitle>
+                    <ProjectTags>
+                        <Time>{props.year}</Time>
+                        <Type>{props.type}</Type>
+                    </ProjectTags>
+                    <ProjectText>{props.desc}</ProjectText>
+                    <ProjectLink href={props.prlink}>See project</ProjectLink>
+                </ProjectDesc>
+            </Wrapper>
+        </Media>
+    </MediaContextProvider>
     </>
 }
 
