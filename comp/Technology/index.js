@@ -14,6 +14,7 @@ const Wrapper = styled.div`
 const Par = styled.p`
     text-align: center;
     font-size: 14px;
+    font-weight: 600;
 `
 
 const TechnologyCard = (props) => {

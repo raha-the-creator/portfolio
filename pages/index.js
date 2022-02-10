@@ -40,7 +40,17 @@ const Line = styled.div`
 `
 
 const GraphicDesign = styled.div`
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #42A7E8;
+  padding: 10px;
+  margin-top: 20px;
+  width: 280px;
+  font-family: 'Heebo';
+  font-size: 22px;
+  color: white;
+  border-radius: 10px;
 `
 
 export default function Home() {
@@ -112,8 +122,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.section3}>
+        <div className={styles.prHeader}>
           <span className={styles.name}>Featured works</span>
+        </div>
+
+        <div className={styles.section3}>
           <div className={styles.projects}>
             <ProjectCard
               img="./procon.png"
@@ -171,10 +184,13 @@ export default function Home() {
               prlink="http://hoppeyyy.com/west_point_hotel/"
             />
             <Line />
-            <GraphicDesign>
-              <a href="https://drive.google.com/drive/u/0/folders/1SMVWevLGsZv7Of2NI-Pd5onmGlb1KhGK"></a>
-            </GraphicDesign>
           </div>
+        </div>
+
+        <div className={styles.graphics}>
+          <GraphicDesign>
+            <a href="https://drive.google.com/drive/u/0/folders/1SMVWevLGsZv7Of2NI-Pd5onmGlb1KhGK">Graphic Design Projects</a>
+          </GraphicDesign>
         </div>
 
         <div className={styles.footer} data-aos="fade-down">

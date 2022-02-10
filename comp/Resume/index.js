@@ -8,6 +8,7 @@ const ButtonWrapper = styled.div`
     width: fit-content;
     width: 200px;
     height: 50px;
+    border-radius: 10px;
 `
 
 const Text = styled.p`
