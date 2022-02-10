@@ -133,7 +133,7 @@ const ProjectCard = (props) => {
                         <Type>{props.type}</Type>
                     </ProjectTags>
                     <ProjectText>{props.desc}</ProjectText>
-                    <ProjectLink href={props.prlink}>See m project</ProjectLink>
+                    <ProjectLink href={props.prlink}>See project</ProjectLink>
                 </ProjectDescM>
             </MobileWrapper>
         </Media>
