@@ -104,7 +104,7 @@ const ProjectDescM = styled.div`
 const { MediaContextProvider, Media } = createMedia({
     // breakpoints values can be either strings or integers
     breakpoints: {
-      sm: 1080,
+      sm: 0,
       md: 768,
       lg: 1024,
       xl: 1192,
