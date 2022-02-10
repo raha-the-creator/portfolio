@@ -83,7 +83,7 @@ export default function Home() {
             />
             <TechnologyCard
               img="./react.png"
-              title="React and React Native"
+              title="React/React Native"
             />
             <TechnologyCard
               img="./next.png"
