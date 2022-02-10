@@ -6,7 +6,7 @@ const Wrapper = styled.div`
 
 const Picture = styled.img`
     border-radius: 50%;
-    content:url('./me.jpg');
+    content:url('./me.png');
     width: 350px;
     height: 350px;
     z-index: 1;
