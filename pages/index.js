@@ -179,17 +179,17 @@ export default function Home() {
 
         <div className={styles.footer} data-aos="fade-down">
           <SocialLink
-            img="./telegram.png"
+            img="./telegram.svg"
             title="Telegram"
             link="https://t.me/rahatherock"
           />
           <SocialLink
-            img="./github.png"
+            img="./github.svg"
             title="GitHub"
             link="https://github.com/raha-the-creator"
           />
           <SocialLink
-            img="./linkedin.png"
+            img="./linkedin.svg"
             title="LinkedIn"
             link="https://www.linkedin.com/in/rakhymzhan-duisek/"
           />
