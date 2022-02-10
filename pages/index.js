@@ -35,6 +35,10 @@ const Line = styled.div`
   height: 1px;
 `
 
+const GraphicDesign = styled.div`
+
+`
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -92,6 +96,10 @@ export default function Home() {
             <TechnologyCard
               img="./styled.png"
               title="Styled-components"
+            />
+            <TechnologyCard
+              img="./creativesuite.png"
+              title="Adobe Creative Suit"
             />
           </div>
         </div>
@@ -154,6 +162,10 @@ export default function Home() {
               desc="Term project to develop website using CMS (WordPress). Developed custom theme and added additional features (360 view of the room, etc.)"
               prlink="http://hoppeyyy.com/west_point_hotel/"
             />
+            <Line />
+            <GraphicDesign>
+              <a href="https://drive.google.com/drive/u/0/folders/1SMVWevLGsZv7Of2NI-Pd5onmGlb1KhGK"></a>
+            </GraphicDesign>
           </div>
         </div>
 

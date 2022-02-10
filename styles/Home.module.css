@@ -51,9 +51,11 @@
 
 .cards {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
 }
 
 .section3 {
@@ -100,5 +102,9 @@
   }
   .box2 {
     order: 1;
+  }
+  .card {
+    min-width: 500px;
+    flex-direction: column;
   }
 }
