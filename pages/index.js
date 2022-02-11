@@ -129,7 +129,7 @@ export default function Home() {
             />
             <TechnologyCard
               img="./creativesuite.png"
-              title="Adobe Creative Suit"
+              title="Adobe Creative Suite"
             />
           </div>
         </div>
@@ -201,8 +201,8 @@ export default function Home() {
               title="Canada Computers"
               year="2020"
               type="UI/UX"
-              desc="Term project to develop website using CMS (WordPress). Developed custom theme and added additional features (360 view of the room, etc.)"
-              prlink="http://hoppeyyy.com/west_point_hotel/"
+              desc="Rapid prototyping and complete redesign of Canada Computers. I have contributed into a creating low and high fidelity testings which later on been taken into creating final version of the website."
+              prlink="https://www.figma.com/proto/OvgIZAjwznDuaAyAy7p8mh/Canada-Computers-Redesign?page-id=0%3A1&node-id=1%3A2&starting-point-node-id=1%3A2"
             />
             <Line />
           </div>
