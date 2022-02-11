@@ -98,6 +98,11 @@
   padding-bottom: 10px;
 }
 
+.thumbnail {
+  width: 1000px;
+  height: 750px;
+}
+
 @media (max-width: 480px) {
   .container {
     display: flex;
@@ -105,6 +110,7 @@
     justify-content: center;
     width: 100%;
   }
+
   .section1 {
     display: flex;
     width: 100%;
@@ -112,16 +118,24 @@
     flex-direction: column;
     margin-top: 50px;
   }
+
   .box1 {
     display: flex;
     justify-content: center;
     order: 2;
   }
+
   .box2 {
     order: 1;
   }
+
   .card {
     min-width: 100%;
     flex-direction: column;
+  }
+
+  .thumbnail {
+    width: 400px;
+    height: 300px;
   }
 }

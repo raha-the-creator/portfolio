@@ -41,16 +41,28 @@ const Line = styled.div`
 
 const GraphicDesign = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
+const GraphicButton = styled.a`
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #42A7E8;
   padding: 10px;
   margin-top: 20px;
-  width: 280px;
+  width: 320px;
   font-family: 'Heebo';
   font-size: 22px;
   color: white;
   border-radius: 10px;
+`
+
+const Thumbnail = styled.img`
+  content:url('./thumbnail.jpg);
+
 `
 
 export default function Home() {
@@ -184,12 +196,23 @@ export default function Home() {
               prlink="http://hoppeyyy.com/west_point_hotel/"
             />
             <Line />
+            <ProjectCard
+              img="./canadacomputers.png"
+              title="Canada Computers"
+              year="2020"
+              type="UI/UX"
+              desc="Term project to develop website using CMS (WordPress). Developed custom theme and added additional features (360 view of the room, etc.)"
+              prlink="http://hoppeyyy.com/west_point_hotel/"
+            />
+            <Line />
           </div>
         </div>
 
         <div className={styles.graphics}>
+
           <GraphicDesign>
-            <a href="https://drive.google.com/drive/u/0/folders/1SMVWevLGsZv7Of2NI-Pd5onmGlb1KhGK">Graphic Design Projects</a>
+            <img className={styles.thumbnail} src='./thumbnail.jpg' />
+            <GraphicButton href="https://drive.google.com/drive/u/0/folders/1SMVWevLGsZv7Of2NI-Pd5onmGlb1KhGK">View Graphic Design Projects</GraphicButton>
           </GraphicDesign>
         </div>
 
