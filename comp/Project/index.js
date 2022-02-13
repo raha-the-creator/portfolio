@@ -32,7 +32,8 @@ const ProjectTags = styled.div`
 `
 
 const ProjectDesc = styled.div`
-    padding: 15px;
+    margin: 25px;
+    margin-top: 50px;
 `
 
 const Time = styled.div`
@@ -74,6 +75,8 @@ const ProjectText = styled.p`
 `
 
 const ProjectLink = styled.a`
+    font-family: 'Heebo';
+    font-weight: 500;
     background-color: #142850;
     color: white;
     padding: 10px;
@@ -81,6 +84,14 @@ const ProjectLink = styled.a`
     padding-right: 12px;
     border-radius: 15px;
 `
+
+const PrBtnCont = styled.div`
+    display: flex;
+
+    margin: 0px;
+    padding: 0px;
+` 
+
 // desktop verison //
 
 // mobile version //
@@ -141,7 +152,7 @@ const ProjectCard = (props) => {
         <Media greaterThan="sm">    
             <Wrapper>
                 <ProjectImg>
-                    <img src={props.img} />
+                    <img src={props.img} width={340} />
                 </ProjectImg>
                 <ProjectDesc>
                     <PrTitle>{props.title}</PrTitle>
@@ -150,7 +161,9 @@ const ProjectCard = (props) => {
                         <Type>{props.type}</Type>
                     </ProjectTags>
                     <ProjectText>{props.desc}</ProjectText>
-                    <ProjectLink href={props.prlink}>See project</ProjectLink>
+                    <PrBtnCont>
+                        <ProjectLink href={props.prlink}>See project</ProjectLink>
+                    </PrBtnCont>
                 </ProjectDesc>
             </Wrapper>
         </Media>
