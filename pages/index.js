@@ -145,7 +145,7 @@ export default function Home() {
               title="ProCon"
               year="2022"
               type="Front-end Development"
-              desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life"
+              desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life. I have worked on front-end part of this project (Dashboard, Project Page, components, etc.)"
               prlink="https://idsp3-procon-test.herokuapp.com/"
               />
             <Line />
