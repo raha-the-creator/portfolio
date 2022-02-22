@@ -116,16 +116,28 @@ export default function Home() {
               title="Node.js"
             />
             <TechnologyCard
+              img="./styled.png"
+              title="Styled-components"
+            />
+            <TechnologyCard
+              img="./php.png"
+              title="PHP"
+            />
+            <TechnologyCard
+              img="./mongo.png"
+              title="MongoDB"
+            />
+            <TechnologyCard
+              img="./mysql.png"
+              title="MySQL"
+            />
+            <TechnologyCard
               img="./git.png"
               title="Git"
             />
             <TechnologyCard
               img="./figma.png"
               title="Figma"
-            />
-            <TechnologyCard
-              img="./styled.png"
-              title="Styled-components"
             />
             <TechnologyCard
               img="./creativesuite.png"
