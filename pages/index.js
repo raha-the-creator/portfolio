@@ -116,20 +116,24 @@ export default function Home() {
               title="Node.js"
             />
             <TechnologyCard
-              img="./styled.png"
-              title="Styled-components"
-            />
-            <TechnologyCard
-              img="./php.png"
-              title="PHP"
+              img="./express.png"
+              title="Express.js"
             />
             <TechnologyCard
               img="./mongo.png"
               title="MongoDB"
             />
             <TechnologyCard
+              img="./php.png"
+              title="PHP"
+            />
+            <TechnologyCard
               img="./mysql.png"
               title="MySQL"
+            />
+            <TechnologyCard
+              img="./styled.png"
+              title="Styled-components"
             />
             <TechnologyCard
               img="./git.png"
@@ -159,7 +163,7 @@ export default function Home() {
               type="Front-end Development"
               desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life. I have worked on front-end part of this project (Dashboard, Project Page, components, etc.)"
               prlink="https://idsp3-procon-test.herokuapp.com/"
-              />
+            />
             <Line />
             <ProjectCard
               img="./bccie.png"
