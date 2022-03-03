@@ -17,7 +17,7 @@ const Par = styled.p`
   font-family: 'Heebo';
   font-size: 19px;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 `
 
 const Header = styled.p`
@@ -85,6 +85,7 @@ export default function Home() {
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
             <span className={styles.name}>Front-end Developer</span>
             <Par>I'm striving to join the ever-growing technology industry with an active passion for cross-platform web applications. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development.</Par>
+            <Par>In my leasure time, I enjoy playing guitar, exercising, reading, learning history and languages.</Par>
             <ResumeButton />
           </div>
 
