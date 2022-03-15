@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import ProjectCard from '../comp/Project'
 import SocialLink from '../comp/Social'
 
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+
 import React, { useState, useEffect } from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -20,12 +22,16 @@ const BackButton = styled.div`
     justify-content: center;
     text-align: center;
     position: fixed;
-    background-color: red;
+    background-color: #66C3FF;
+    color: white;
     width: 80px;
     height: 80px;
     bottom: 20;
     margin-left: 20px;
     z-index: 3;
+    font-weight: 700;
+    flex-direction: column;
+    border-radius: 20px;
 `
 
 const NavItem = styled.a`
@@ -46,6 +52,7 @@ export default function Projects() {
             </Head>
 
             <BackButton>
+                <AiOutlineArrowLeft />
                 <a href="https://raduye.vercel.app/">home page</a>
             </BackButton>
 
