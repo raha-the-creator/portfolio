@@ -80,6 +80,17 @@ const ProjectLink = styled.a`
     background-color: #142850;
     color: white;
     padding: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 15px;
+`
+
+const ProjectPage = styled.a`
+    font-family: 'Heebo';
+    font-weight: 500;
+    border: 1px solid #142850;
+    color: #142850;
+    padding: 10px;
     padding-left: 12px;
     padding-right: 12px;
     border-radius: 15px;
@@ -87,8 +98,7 @@ const ProjectLink = styled.a`
 
 const PrBtnCont = styled.div`
     display: flex;
-
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
 ` 
 
@@ -113,6 +123,11 @@ const ProjectDescM = styled.div`
     width: 400px;
     padding-left: 40px;
     padding-right: 40px;
+`
+
+const Buttons = styled.div`
+    display: flex;
+    flex-direction: row;
 `
 
 const { MediaContextProvider, Media } = createMedia({
@@ -161,9 +176,15 @@ const ProjectCard = (props) => {
                         <Type>{props.type}</Type>
                     </ProjectTags>
                     <ProjectText>{props.desc}</ProjectText>
-                    <PrBtnCont>
-                        <ProjectLink href={props.prlink}>See project</ProjectLink>
-                    </PrBtnCont>
+                    
+                    <Buttons>
+                        <PrBtnCont>
+                            <ProjectLink href={props.prlink}>See project</ProjectLink>
+                        </PrBtnCont>
+                        <PrBtnCont>
+                            <ProjectPage href={props.prlink}>Learn more</ProjectPage>
+                        </PrBtnCont>
+                    </Buttons>
                 </ProjectDesc>
             </Wrapper>
         </Media>
