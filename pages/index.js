@@ -229,7 +229,7 @@ export default function Home() {
 
           <GraphicDesign>
             <img className={styles.thumbnail} src='./thumbnail.jpg' />
-            <GraphicButton href="https://drive.google.com/drive/u/0/folders/1SMVWevLGsZv7Of2NI-Pd5onmGlb1KhGK">View Graphic Design Projects</GraphicButton>
+            <GraphicButton href="https://www.behance.net/rakhymzduisek">View Graphic Design Projects</GraphicButton>
           </GraphicDesign>
         </div>
 
