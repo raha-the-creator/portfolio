@@ -26,7 +26,7 @@ const BackButton = styled.div`
     color: white;
     width: 80px;
     height: 80px;
-    bottom: 20;
+    top: 10;
     margin-left: 20px;
     z-index: 3;
     font-weight: 700;
@@ -35,10 +35,10 @@ const BackButton = styled.div`
 `
 
 const NavItem = styled.a`
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 600;
-    margin-right: 5px;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 35px;
 `
 
 export default function Projects() {
@@ -53,14 +53,13 @@ export default function Projects() {
 
             <div className={styles.navigation}>
                 <NavItem href="https://raduye.vercel.app">Home</NavItem>
-                <NavItem href="https://www.behance.net/rakhymzduisek" target="_blank">Behance</NavItem>
                 <NavItem href="#contact">Contact</NavItem>
             </div>
 
-            <BackButton>
+            {/* <BackButton>
                 <AiOutlineArrowLeft />
                 <a href="https://raduye.vercel.app/">home page</a>
-            </BackButton>
+            </BackButton> */}
 
             <div className={styles.prHeader}>
                 <span className={styles.name}>All projects</span>
