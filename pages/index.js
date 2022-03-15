@@ -68,8 +68,8 @@ const Thumbnail = styled.img`
 const NavItem = styled.a`
   font-size: 21px;
   font-weight: 600;
-  margin-right: 10px;
-  margin-left: 5px;
+  margin-right: 5px;
+  margin-left: 30px;
 `
 
 export default function Home() {
@@ -89,7 +89,7 @@ export default function Home() {
 
         <div className={styles.navigation}>
           <NavItem href="https://raduye.vercel.app/projects">Projects</NavItem>
-          <NavItem href="#projects">Behance</NavItem>
+          <NavItem href="https://www.behance.net/rakhymzduisek">Behance</NavItem>
           <NavItem href="#contact">Contact</NavItem>
         </div>
 
