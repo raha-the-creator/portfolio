@@ -149,7 +149,6 @@ const ProjectCard = (props) => {
     <MediaContextProvider data-aos="fade-down">
         <Media at="sm">
             <MobileWrapper>
-                mobile
                 <ProjectImgM>
                     <img src={props.img} />
                 </ProjectImgM>
@@ -162,10 +161,10 @@ const ProjectCard = (props) => {
                     <ProjectText>{props.desc}</ProjectText>
                     <Buttons>
                         <PrBtnCont>
-                            <ProjectLink href={props.prlink} target="_blank">See project</ProjectLink>
+                            <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
                         </PrBtnCont>
                         <PrBtnCont>
-                            <ProjectPage href={props.prlink} target="_blank">Learn more</ProjectPage>
+                            <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
                         </PrBtnCont>
                     </Buttons>
                 </ProjectDescM>
@@ -190,7 +189,7 @@ const ProjectCard = (props) => {
                             <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
                         </PrBtnCont>
                         <PrBtnCont>
-                            <ProjectPage href={props.prlink} target="_blank">Learn more</ProjectPage>
+                            <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
                         </PrBtnCont>
                     </Buttons>
                 </ProjectDesc>

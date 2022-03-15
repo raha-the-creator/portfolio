@@ -65,6 +65,13 @@ const Thumbnail = styled.img`
 
 `
 
+const NavItem = styled.a`
+  font-size: 21px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-left: 5px;
+`
+
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -80,7 +87,11 @@ export default function Home() {
 
       <div className={styled.wrapper}>
 
-        
+        <div className={styles.navigation}>
+          <NavItem href="https://raduye.vercel.app/projects">Projects</NavItem>
+          <NavItem href="#projects">Behance</NavItem>
+          <NavItem href="#contact">Contact</NavItem>
+        </div>
 
         <div className={styles.section1} data-aos="fade-down">
           <div className={styles.box1}>
@@ -157,7 +168,7 @@ export default function Home() {
           <span className={styles.name}>Featured works</span>
         </div>
 
-        <div className={styles.section3}>
+        <div className={styles.section3} id="projects">
           <div className={styles.projects}>
             <ProjectCard
               img="./procon.png"
@@ -166,6 +177,7 @@ export default function Home() {
               type="Front-end Development"
               desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life. I have worked on front-end part of this project (Dashboard, Project Page, components, etc.)"
               prlink="https://idsp3-procon-test.herokuapp.com/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
             />
             <Line />
             <ProjectCard
@@ -175,6 +187,7 @@ export default function Home() {
               type="UI/UX"
               desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
               prlink="https://bccie.bc.ca/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
             />
             <Line />
             <ProjectCard
@@ -184,9 +197,9 @@ export default function Home() {
               type="Front-end Development and UI/UX"
               desc="First project using Next.js. I contributed a lot in designing the mockups and building them using styled-components and Next.js"
               prlink="https://farmtotable.vercel.app/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
             />
             <Line />
-            See all projects
             {/* <ProjectCard
               img="./oncampus.png"
               title="onCampus food delivery"
@@ -228,6 +241,12 @@ export default function Home() {
           </div>
         </div>
 
+        <button>
+          <a href="https://raduye.vercel.app/projects">
+            See all projects
+          </a>
+        </button>
+
         {/* <div className={styles.graphics}>
           <GraphicDesign>
             <img className={styles.thumbnail} src='./thumbnail.jpg' />
@@ -235,13 +254,7 @@ export default function Home() {
           </GraphicDesign>
         </div> */}
 
-        <div>
-          <iframe style={{border: '1px solid black', width:"800", height:"450"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FpYEz4vK8vSywHSkhWrronF%2Fportfolio-website%3Fnode-id%3D25%253A10" allowfullscreen>
-            111
-          </iframe>
-        </div>
-
-        <div className={styles.footer} data-aos="fade-down">
+        <div className={styles.footer} data-aos="fade-down" id="contact">
           <SocialLink
             img="./telegram.svg"
             title="Telegram"

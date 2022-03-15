@@ -142,4 +142,16 @@
   }
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+	position: fixed;
+  z-index: 5;
+  width: 100vw;
+	top: 0;
+  background-color: #EDF7FA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 

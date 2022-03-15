@@ -13,9 +13,35 @@ const Line = styled.div`
   height: 1px;
 `
 
+const BackButton = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 650px;
+    z-index: 3;
+`
+
+const NavItem = styled.a`
+  font-size: 21px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-left: 5px;
+`
+
 export default function Projects() {
     return (
         <div>
+
+            <BackButton>
+                <a href="https://raduye.vercel.app/">home page</a>
+            </BackButton>
 
             <div className={styles.prHeader}>
                 <span className={styles.name}>All projects</span>
@@ -30,6 +56,7 @@ export default function Projects() {
                         type="Front-end Development"
                         desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life. I have worked on front-end part of this project (Dashboard, Project Page, components, etc.)"
                         prlink="https://idsp3-procon-test.herokuapp.com/"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                     <ProjectCard
@@ -39,6 +66,7 @@ export default function Projects() {
                         type="UI/UX"
                         desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
                         prlink="https://bccie.bc.ca/"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                     <ProjectCard
@@ -48,6 +76,7 @@ export default function Projects() {
                         type="Front-end Development and UI/UX"
                         desc="First project using Next.js. I contributed a lot in designing the mockups and building them using styled-components and Next.js"
                         prlink="https://farmtotable.vercel.app/"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                     See all projects
@@ -58,6 +87,7 @@ export default function Projects() {
                         type="UI/UX"
                         desc="Won 3rd place in BCIT Innovation Challenge and 3rd place at Nourishing Innovation Challenge. Designed additional service in BCIT mobile application to help students who reside in dormitory to receive their groceries on time and accordingly. Source: https://www.linkedin.com/feed/update/urn:li:activity:6820875880559185920/"
                         prlink="https://www.figma.com/proto/tmangvaPSepSjvuozsMXdm/onCampus-delivery?page-id=5%3A116&node-id=21%3A1&starting-point-node-id=21%3A1"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                     <ProjectCard
@@ -69,6 +99,7 @@ export default function Projects() {
               Assisted the team in updating the website as needed.
               Made suggestions to the WCK team to improve the website and implement them as needed. Improvements included, but weren't limited to, adding helpful features, optimizing the website's performance, improving its responsiveness, and improving the user experience through conducting usability testings"
                         prlink="https://www.wckfoundation.ca/"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                     <ProjectCard
@@ -78,6 +109,7 @@ export default function Projects() {
                         type="Front-end Development"
                         desc="Term project to develop website using CMS (WordPress). Developed custom theme and added additional features (360 view of the room, etc.)"
                         prlink="http://hoppeyyy.com/west_point_hotel/"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                     <ProjectCard
@@ -87,6 +119,7 @@ export default function Projects() {
                         type="UI/UX"
                         desc="Rapid prototyping and complete redesign of Canada Computers. I have contributed into a creating low and high fidelity testings which later on been taken into creating final version of the website."
                         prlink="https://www.figma.com/proto/OvgIZAjwznDuaAyAy7p8mh/Canada-Computers-Redesign?page-id=0%3A1&node-id=1%3A2&starting-point-node-id=1%3A2"
+                        prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
                 </div>
