@@ -13,7 +13,8 @@
 
 .name {
   font-weight: 700;
-  font-size: 33px;
+  font-size: 36px;
+  margin-bottom: 0px;
 }
 
 .section1 {
@@ -140,3 +141,5 @@
     height: 300px;
   }
 }
+
+

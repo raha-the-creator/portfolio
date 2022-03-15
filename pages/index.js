@@ -80,6 +80,8 @@ export default function Home() {
 
       <div className={styled.wrapper}>
 
+        
+
         <div className={styles.section1} data-aos="fade-down">
           <div className={styles.box1}>
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
@@ -184,7 +186,8 @@ export default function Home() {
               prlink="https://farmtotable.vercel.app/"
             />
             <Line />
-            <ProjectCard
+            See all projects
+            {/* <ProjectCard
               img="./oncampus.png"
               title="onCampus food delivery"
               year="2021"
@@ -221,16 +224,21 @@ export default function Home() {
               desc="Rapid prototyping and complete redesign of Canada Computers. I have contributed into a creating low and high fidelity testings which later on been taken into creating final version of the website."
               prlink="https://www.figma.com/proto/OvgIZAjwznDuaAyAy7p8mh/Canada-Computers-Redesign?page-id=0%3A1&node-id=1%3A2&starting-point-node-id=1%3A2"
             />
-            <Line />
+            <Line /> */}
           </div>
         </div>
 
-        <div className={styles.graphics}>
-
+        {/* <div className={styles.graphics}>
           <GraphicDesign>
             <img className={styles.thumbnail} src='./thumbnail.jpg' />
             <GraphicButton href="https://www.behance.net/rakhymzduisek">View Graphic Design Projects</GraphicButton>
           </GraphicDesign>
+        </div> */}
+
+        <div>
+          <iframe style={{border: '1px solid black', width:"800", height:"450"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FpYEz4vK8vSywHSkhWrronF%2Fportfolio-website%3Fnode-id%3D25%253A10" allowfullscreen>
+            111
+          </iframe>
         </div>
 
         <div className={styles.footer} data-aos="fade-down">

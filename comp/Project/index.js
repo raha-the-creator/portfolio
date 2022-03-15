@@ -33,7 +33,7 @@ const ProjectTags = styled.div`
 
 const ProjectDesc = styled.div`
     margin: 25px;
-    margin-top: 50px;
+    margin-top: 25px;
 `
 
 const Time = styled.div`
@@ -149,6 +149,7 @@ const ProjectCard = (props) => {
     <MediaContextProvider data-aos="fade-down">
         <Media at="sm">
             <MobileWrapper>
+                mobile
                 <ProjectImgM>
                     <img src={props.img} />
                 </ProjectImgM>
@@ -159,7 +160,14 @@ const ProjectCard = (props) => {
                         <Type>{props.type}</Type>
                     </ProjectTags>
                     <ProjectText>{props.desc}</ProjectText>
-                    <ProjectLink href={props.prlink}>See project</ProjectLink>
+                    <Buttons>
+                        <PrBtnCont>
+                            <ProjectLink href={props.prlink} target="_blank">See project</ProjectLink>
+                        </PrBtnCont>
+                        <PrBtnCont>
+                            <ProjectPage href={props.prlink} target="_blank">Learn more</ProjectPage>
+                        </PrBtnCont>
+                    </Buttons>
                 </ProjectDescM>
             </MobileWrapper>
         </Media>
@@ -179,7 +187,7 @@ const ProjectCard = (props) => {
                     
                     <Buttons>
                         <PrBtnCont>
-                            <ProjectLink href={props.prlink} target="_blank">See project</ProjectLink>
+                            <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
                         </PrBtnCont>
                         <PrBtnCont>
                             <ProjectPage href={props.prlink} target="_blank">Learn more</ProjectPage>
