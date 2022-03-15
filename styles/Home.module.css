@@ -57,7 +57,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 1300px;
+  /* border: 1px solid red; */
 }
 
 .section3 {
