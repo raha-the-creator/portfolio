@@ -72,6 +72,18 @@ const NavItem = styled.a`
   margin-left: 30px;
 `
 
+const OtherProject = styled.a`
+  margin-top: 20px;
+  font-family: 'Heebo';
+  font-weight: 500;
+  border: 1px solid #142850;
+  color: #142850;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 15px;
+`
+
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -89,7 +101,7 @@ export default function Home() {
 
         <div className={styles.navigation}>
           <NavItem href="https://raduye.vercel.app/projects">Projects</NavItem>
-          <NavItem href="https://www.behance.net/rakhymzduisek">Behance</NavItem>
+          <NavItem href="https://www.behance.net/rakhymzduisek" target="_blank">Behance</NavItem>
           <NavItem href="#contact">Contact</NavItem>
         </div>
 
@@ -165,7 +177,7 @@ export default function Home() {
         </div>
 
         <div className={styles.prHeader}>
-          <span className={styles.name}>Featured works</span>
+          <span className={styles.name}>Featured projects</span>
         </div>
 
         <div className={styles.section3} id="projects">
@@ -241,18 +253,16 @@ export default function Home() {
           </div>
         </div>
 
-        <button>
-          <a href="https://raduye.vercel.app/projects">
-            See all projects
-          </a>
-        </button>
 
-        {/* <div className={styles.graphics}>
+        <div className={styles.graphics}>
           <GraphicDesign>
             <img className={styles.thumbnail} src='./thumbnail.jpg' />
-            <GraphicButton href="https://www.behance.net/rakhymzduisek">View Graphic Design Projects</GraphicButton>
+            {/* <GraphicButton href="https://www.behance.net/rakhymzduisek">View Graphic Design Projects</GraphicButton> */}
+            <OtherProject href="https://www.behance.net/rakhymzduisek" target="_blank">
+              See Graphic Design and UI/UX projects
+            </OtherProject>
           </GraphicDesign>
-        </div> */}
+        </div>
 
         <div className={styles.footer} data-aos="fade-down" id="contact">
           <SocialLink
