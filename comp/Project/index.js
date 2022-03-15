@@ -179,10 +179,10 @@ const ProjectCard = (props) => {
                     
                     <Buttons>
                         <PrBtnCont>
-                            <ProjectLink href={props.prlink}>See project</ProjectLink>
+                            <ProjectLink href={props.prlink} target="_blank">See project</ProjectLink>
                         </PrBtnCont>
                         <PrBtnCont>
-                            <ProjectPage href={props.prlink}>Learn more</ProjectPage>
+                            <ProjectPage href={props.prlink} target="_blank">Learn more</ProjectPage>
                         </PrBtnCont>
                     </Buttons>
                 </ProjectDesc>
