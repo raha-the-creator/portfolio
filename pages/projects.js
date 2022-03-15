@@ -37,8 +37,8 @@ const BackButton = styled.div`
 const NavItem = styled.a`
     font-size: 21px;
     font-weight: 600;
-    margin-right: 10px;
-    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 30px;
 `
 
 export default function Projects() {
@@ -98,7 +98,6 @@ export default function Projects() {
                         prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
                     />
                     <Line />
-                    See all projects
                     <ProjectCard
                         img="./oncampus.png"
                         title="onCampus food delivery"
