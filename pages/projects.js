@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/projects.module.css'
 import ProjectCard from '../comp/Project'
 import SocialLink from '../comp/Social'
 
@@ -35,7 +35,7 @@ const BackButton = styled.div`
 `
 
 const NavItem = styled.a`
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-right: 10px;
     margin-left: 35px;
@@ -61,12 +61,17 @@ export default function Projects() {
                 <a href="https://raduye.vercel.app/">home page</a>
             </BackButton> */}
 
+            <br></br>
+            <br></br>
+            <br></br>
+
             <div className={styles.prHeader}>
                 <span className={styles.name}>All projects</span>
             </div>
 
             <div className={styles.section3}>
                 <div className={styles.projects}>
+                
                     <ProjectCard
                         img="./procon.png"
                         title="ProCon"
