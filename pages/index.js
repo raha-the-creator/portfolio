@@ -183,6 +183,16 @@ export default function Home() {
         <div className={styles.section3} id="projects">
           <div className={styles.projects}>
             <ProjectCard
+              img="./bbqchicken.jpg"
+              title="BBQ Chicken"
+              year="2022"
+              type="Front-end Development"
+              desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
+              prlink="https://beta.bbqchickenca.com/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
+            />
+            <Line />
+            <ProjectCard
               img="./procon.png"
               title="ProCon"
               year="2022"
