@@ -183,7 +183,7 @@ export default function Home() {
         <div className={styles.section3} id="projects">
           <div className={styles.projects}>
             <ProjectCard
-              img="./bbqchicken.jpg"
+              img="./bbq.png"
               title="BBQ Chicken"
               year="2022"
               type="Front-end Development"
