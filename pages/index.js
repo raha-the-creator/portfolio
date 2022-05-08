@@ -184,7 +184,7 @@ export default function Home() {
           <div className={styles.projects}>
             <ProjectCard
               img="./bbq.png"
-              title="BBQ Chicken"
+              title="BBQ Chicken."
               year="2022"
               type="Front-end Development"
               desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
