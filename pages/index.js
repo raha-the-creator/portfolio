@@ -108,7 +108,7 @@ export default function Home() {
         <div className={styles.section1} data-aos="fade-down">
           <div className={styles.box1}>
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
-            <span className={styles.name}>Front-end Developer</span>
+            <span className={styles.name}>Front-end Developer/UI Designer</span>
             <Par>I'm striving to join the ever-growing technology industry with an active passion for cross-platform web applications. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development.</Par>
             <Par>In my leasure time, I enjoy playing guitar, exercising, reading, learning history and languages.</Par>
             <ResumeButton />
