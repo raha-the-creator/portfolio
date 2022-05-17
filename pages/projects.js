@@ -56,11 +56,6 @@ export default function Projects() {
                 <NavItem href="#contact">Contact</NavItem>
             </div>
 
-            {/* <BackButton>
-                <AiOutlineArrowLeft />
-                <a href="https://raduye.vercel.app/">home page</a>
-            </BackButton> */}
-
             <br></br>
             <br></br>
             <br></br>
