@@ -68,7 +68,7 @@ export default function Projects() {
                 <div className={styles.projects}>
 
                     <ProjectCard
-                        img="./thriveclub.jpg"
+                        img="./thriveclub.JPG"
                         title="Vancouver Thrive Club"
                         year="2022"
                         type="WordPress + React"
