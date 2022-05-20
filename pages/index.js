@@ -212,6 +212,16 @@ export default function Home() {
             />
             <Line />
             <ProjectCard
+              img="./thriveclub.JPG"
+              title="Vancouver Thrive Club"
+              year="2022"
+              type="WordPress + React"
+              desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
+              prlink="http://thriveclub.ca/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=270%3A121&viewport=241%2C48%2C0.42&scaling=min-zoom"
+            />
+            <Line />
+            <ProjectCard
               img="./farmtotable.png"
               title="Farm To Table"
               year="2021"
