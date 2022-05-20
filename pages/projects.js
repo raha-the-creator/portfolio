@@ -66,7 +66,16 @@ export default function Projects() {
 
             <div className={styles.section3}>
                 <div className={styles.projects}>
-                
+
+                    <ProjectCard
+                        img="./thriveclub.jpg"
+                        title="Vancouver Thrive Club"
+                        year="2022"
+                        type="WordPress + React"
+                        desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
+                        prlink="http://thriveclub.ca/"
+                    />
+                    <Line />
                     <ProjectCard
                         img="./procon.png"
                         title="ProCon"
