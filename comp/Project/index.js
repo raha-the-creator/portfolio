@@ -74,7 +74,6 @@ const ProjectText = styled.p`
     margin-bottom: 30px;
     font-family: 'Heebo';
     font-size: 19px;
-    font-weight: 500;
 `
 
 const ProjectLink = styled.a`
