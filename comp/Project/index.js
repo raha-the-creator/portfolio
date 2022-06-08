@@ -18,7 +18,7 @@ const ProjectImg = styled.div`
 
 const Picture = styled.img`
     border-radius: 50%;
-    content:url(${props=>props.img});
+    content:url(${props => props.img});
     width: 350px;
     height: 350px;
     z-index: 1;
@@ -72,6 +72,9 @@ const PrTitle = styled.span`
 const ProjectText = styled.p`
     padding: 0px;
     margin-bottom: 30px;
+    font-family: 'Heebo';
+    font-size: 19px;
+    font-weight: 500;
 `
 
 const ProjectLink = styled.a`
@@ -100,7 +103,7 @@ const PrBtnCont = styled.div`
     display: flex;
     margin: 5px;
     padding: 0px;
-` 
+`
 
 // desktop verison //
 
@@ -133,69 +136,69 @@ const Buttons = styled.div`
 const { MediaContextProvider, Media } = createMedia({
     // breakpoints values can be either strings or integers
     breakpoints: {
-      sm: 0,
-      md: 768,
-      lg: 1024,
-      xl: 1192,
+        sm: 0,
+        md: 768,
+        lg: 1024,
+        xl: 1192,
     },
-  })
+})
 
 const ProjectCard = (props) => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
-      }, []);
+    }, []);
 
     return <>
-    <MediaContextProvider data-aos="fade-down">
-        <Media at="sm">
-            <MobileWrapper>
-                <ProjectImgM>
-                    <img src={props.img} />
-                </ProjectImgM>
-                <ProjectDescM>
-                    <PrTitle>{props.title}</PrTitle>
-                    <ProjectTags>
-                        <Time>{props.year}</Time>
-                        <Type>{props.type}</Type>
-                    </ProjectTags>
-                    <ProjectText>{props.desc}</ProjectText>
-                    <Buttons>
-                        <PrBtnCont>
-                            <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
-                        </PrBtnCont>
-                        <PrBtnCont>
-                            <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
-                        </PrBtnCont>
-                    </Buttons>
-                </ProjectDescM>
-            </MobileWrapper>
-        </Media>
+        <MediaContextProvider data-aos="fade-down">
+            <Media at="sm">
+                <MobileWrapper>
+                    <ProjectImgM>
+                        <img src={props.img} />
+                    </ProjectImgM>
+                    <ProjectDescM>
+                        <PrTitle>{props.title}</PrTitle>
+                        <ProjectTags>
+                            <Time>{props.year}</Time>
+                            <Type>{props.type}</Type>
+                        </ProjectTags>
+                        <ProjectText>{props.desc}</ProjectText>
+                        <Buttons>
+                            <PrBtnCont>
+                                <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
+                            </PrBtnCont>
+                            <PrBtnCont>
+                                <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
+                            </PrBtnCont>
+                        </Buttons>
+                    </ProjectDescM>
+                </MobileWrapper>
+            </Media>
 
-        <Media greaterThan="sm">    
-            <Wrapper>
-                <ProjectImg>
-                    <img src={props.img} width={340} />
-                </ProjectImg>
-                <ProjectDesc>
-                    <PrTitle>{props.title}</PrTitle>
-                    <ProjectTags>
-                        <Time>{props.year}</Time>
-                        <Type>{props.type}</Type>
-                    </ProjectTags>
-                    <ProjectText>{props.desc}</ProjectText>
-                    
-                    <Buttons>
-                        <PrBtnCont>
-                            <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
-                        </PrBtnCont>
-                        <PrBtnCont>
-                            <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
-                        </PrBtnCont>
-                    </Buttons>
-                </ProjectDesc>
-            </Wrapper>
-        </Media>
-    </MediaContextProvider>
+            <Media greaterThan="sm">
+                <Wrapper>
+                    <ProjectImg>
+                        <img src={props.img} width={340} />
+                    </ProjectImg>
+                    <ProjectDesc>
+                        <PrTitle>{props.title}</PrTitle>
+                        <ProjectTags>
+                            <Time>{props.year}</Time>
+                            <Type>{props.type}</Type>
+                        </ProjectTags>
+                        <ProjectText>{props.desc}</ProjectText>
+
+                        <Buttons>
+                            <PrBtnCont>
+                                <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
+                            </PrBtnCont>
+                            <PrBtnCont>
+                                <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
+                            </PrBtnCont>
+                        </Buttons>
+                    </ProjectDesc>
+                </Wrapper>
+            </Media>
+        </MediaContextProvider>
     </>
 }
 
