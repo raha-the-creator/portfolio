@@ -109,7 +109,7 @@ export default function Home() {
           <div className={styles.box1}>
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
             <span className={styles.name}>Front-end Developer/UI Designer</span>
-            <Par>I'm striving to join the ever-growing technology industry with an active passion for cross-platform web applications. Strong problem-solving and leadership skills from participating in multiple team projects, volunteering, and freelance development.</Par>
+            <Par>Front-End Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Proficient in HTML, CSS3/SCSS, JavaScript | DOM, as well as other Front-End tools, libraries, and frameworks. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</Par>
             <Par>In my leasure time, I enjoy playing guitar, exercising, reading, learning history and languages.</Par>
             <ResumeButton />
           </div>
