@@ -110,7 +110,7 @@ export default function Home() {
             <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
             <span className={styles.name}>Front-end Developer/UI Designer.</span>
             <Par>Front-End Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Proficient in HTML, CSS3/SCSS, JavaScript | ES6 | TS, as well as other Front-End tools, libraries, and frameworks. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</Par>
-            <Par>In my leasure time, I enjoy playing guitar, exercising, reading, learning history and languages.</Par>
+            <Par>Experienced freelance developer that worked with big clients in BC, Canada and Kazakhstan, such as bb.q chicken, BC Council for International Education, Seniors Services Society.</Par>
             <ResumeButton />
           </div>
 
@@ -128,6 +128,10 @@ export default function Home() {
             <TechnologyCard
               img="./js.png"
               title="JavaScript"
+            />
+            <TechnologyCard
+              img="./ts.png"
+              title="TypeScript"
             />
             <TechnologyCard
               img="./react.png"
@@ -158,10 +162,6 @@ export default function Home() {
               title="MySQL"
             />
             <TechnologyCard
-              img="./styled.png"
-              title="Styled-components"
-            />
-            <TechnologyCard
               img="./git.png"
               title="Git"
             />
@@ -170,8 +170,8 @@ export default function Home() {
               title="Figma"
             />
             <TechnologyCard
-              img="./creativesuite.png"
-              title="Adobe Creative Suite"
+              img="./sass.png"
+              title="SASS"
             />
           </div>
         </div>
