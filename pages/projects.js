@@ -66,13 +66,20 @@ export default function Projects() {
 
             <div className={styles.section3}>
                 <div className={styles.projects}>
-
+                    <ProjectCard
+                        img="./bbq.png"
+                        title="BBQ Chicken."
+                        year="2022"
+                        type="WordPress + React"
+                        desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
+                        prlink="https://beta.bbqchickenca.com/"
+                    />
                     <ProjectCard
                         img="./thriveclub.JPG"
                         title="Vancouver Thrive Club"
                         year="2022"
                         type="WordPress + React"
-                        desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
+                        desc="Built with Gutenberg and Kadence blocks"
                         prlink="http://thriveclub.ca/"
                     />
                     <Line />
