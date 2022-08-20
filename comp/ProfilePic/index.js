@@ -27,6 +27,7 @@ const ProfilePicture = () =>{
     return <Wrapper>
         <Picture />
         <Circle />
+        
     </Wrapper>
 }
 

@@ -183,6 +183,17 @@ export default function Home() {
         <div className={styles.section3} id="projects">
           <div className={styles.projects}>
             <ProjectCard
+              img="./Netflix clone.png"
+              title="Netflix Clone."
+              year="2022"
+              type="React + Firebase + Tailwind CSS"
+              desc="Developed a full-stack application with authentication
+              system through Firebase using React.js, Tailwind CSS."
+              prlink="https://netflix-react-b154e.web.app/"
+              prpage="https://github.com/raha-the-creator/Netflix-clone"
+            />
+            <Line />
+            <ProjectCard
               img="./bbq.png"
               title="BBQ Chicken."
               year="2022"
