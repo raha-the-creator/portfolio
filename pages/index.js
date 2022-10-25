@@ -182,24 +182,35 @@ export default function Home() {
 
         <div className={styles.section3} id="projects">
           <div className={styles.projects}>
-            <ProjectCard
+            {/* <ProjectCard
               img="./Netflix clone.png"
-              title="Netflix Clone."
+              title="Netflix Clone"
               year="2022"
               type="React + Firebase + Tailwind CSS"
               desc="Developed a full-stack application with authentication
               system through Firebase using React.js, Tailwind CSS."
               prlink="https://netflix-react-b154e.web.app/"
               prpage="https://github.com/raha-the-creator/Netflix-clone"
+            /> */}
+            
+            <ProjectCard
+              img="./maulen_website.jpg"
+              title="'Brillante Group' Real Estate Agency"
+              year="2022"
+              type="WordPress + React"
+              desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada"
+              prlink="http://18.208.245.83/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=801%3A91&node-id=801%3A98&viewport=494%2C417%2C0.22&scaling=min-zoom"
             />
             <Line />
             <ProjectCard
               img="./bbq.png"
-              title="BBQ Chicken."
+              title="BBQ Chicken"
               year="2022"
               type="WordPress + React"
               desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
               prlink="https://beta.bbqchickenca.com/"
+              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
             />
             <Line />
             <ProjectCard
@@ -222,15 +233,6 @@ export default function Home() {
               prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=270%3A121&viewport=241%2C48%2C0.42&scaling=min-zoom"
             />
             <Line />
-            <ProjectCard
-              img="./thriveclub.JPG"
-              title="Vancouver Thrive Club"
-              year="2022"
-              type="WordPress + React"
-              desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
-              prlink="http://thriveclub.ca/"
-              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=270%3A121&viewport=241%2C48%2C0.42&scaling=min-zoom"
-            />
           </div>
         </div>
 
