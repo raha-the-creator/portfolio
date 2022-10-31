@@ -113,7 +113,7 @@ export default function Home() {
             </Header>
             <span className={styles.name}>Web Developer/UI Designer.</span>
             <Par>
-              Proficient web developer with 2+ yaers of experience in corporate
+              Proficient web developer with 2+ years of experience in corporate
               and start-up environments. Proven knowledge and experience in web
               application development, requirements gathering, stakeholders
               management, databases, testing, deployment, UI/UX.
