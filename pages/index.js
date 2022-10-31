@@ -1,80 +1,80 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import styled from 'styled-components'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import styled from "styled-components";
 
-import ResumeButton from '../comp/Resume'
-import ProfilePicture from '../comp/ProfilePic'
-import TechnologyCard from '../comp/Technology'
-import ProjectCard from '../comp/Project'
-import SocialLink from '../comp/Social'
+import ResumeButton from "../comp/Resume";
+import ProfilePicture from "../comp/ProfilePic";
+import TechnologyCard from "../comp/Technology";
+import ProjectCard from "../comp/Project";
+import SocialLink from "../comp/Social";
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 import Aos from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 const Par = styled.p`
-  font-family: 'Heebo';
+  font-family: "Heebo";
   font-size: 19px;
   margin-top: 30px;
   margin-bottom: 20px;
-`
+`;
 
 const Header = styled.p`
   font-size: 33px;
-  font-family: 'Heebo';
+  font-family: "Heebo";
   font-weight: 300;
   margin: 0px;
   padding: 0px;
-`
+`;
 
 const Box21 = styled.div`
   padding-top: 20px;
   padding-bottom: 10px;
-`
+`;
 
 const Line = styled.div`
   margin-top: 10px;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   height: 1px;
-`
+`;
 
 const GraphicDesign = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`
+`;
 
 const GraphicButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #42A7E8;
+  background-color: #42a7e8;
   padding: 10px;
   margin-top: 20px;
   width: 320px;
-  font-family: 'Heebo';
+  font-family: "Heebo";
   font-size: 22px;
   color: white;
   border-radius: 10px;
-`
+`;
 
 const Thumbnail = styled.img`
   content:url('./thumbnail.jpg);
 
-`
+`;
 
 const NavItem = styled.a`
   font-size: 21px;
   font-weight: 600;
   margin-right: 5px;
   margin-left: 30px;
-`
+`;
 
 const OtherProject = styled.a`
   margin-top: 20px;
-  font-family: 'Heebo';
+  font-family: "Heebo";
   font-weight: 500;
   border: 1px solid #142850;
   color: #142850;
@@ -82,7 +82,7 @@ const OtherProject = styled.a`
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 15px;
-`
+`;
 
 export default function Home() {
   useEffect(() => {
@@ -98,19 +98,31 @@ export default function Home() {
       </Head>
 
       <div className={styled.wrapper}>
-
         <div className={styles.navigation}>
           <NavItem href="https://raduye.vercel.app/projects">Projects</NavItem>
-          <NavItem href="https://www.behance.net/rakhymzduisek" target="_blank">Behance</NavItem>
+          <NavItem href="https://www.behance.net/rakhymzduisek" target="_blank">
+            Behance
+          </NavItem>
           <NavItem href="#contact">Contact</NavItem>
         </div>
 
         <div className={styles.section1} data-aos="fade-down">
           <div className={styles.box1}>
-            <Header>Hello, <span className={styles.name}>I am Raha!🐢</span></Header>
-            <span className={styles.name}>Front-end Developer/UI Designer.</span>
-            <Par>Front-End Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Proficient in HTML, CSS3/SCSS, JavaScript | ES6 | TS, as well as other Front-End tools, libraries, and frameworks. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</Par>
-            <Par>Experienced freelance developer that worked with big clients in BC, Canada and Kazakhstan, such as bb.q chicken, BC Council for International Education, Seniors Services Society.</Par>
+            <Header>
+              Hello, <span className={styles.name}>I am Raha!🐢</span>
+            </Header>
+            <span className={styles.name}>Web Developer/UI Designer.</span>
+            <Par>
+              Proficient web developer with 2+ yaers of experience in corporate
+              and start-up environments. Proven knowledge and experience in web
+              application development, requirements gathering, stakeholders
+              management, databases, testing, deployment, UI/UX.
+            </Par>
+            <Par>
+              Experienced freelance developer that worked with big clients in
+              BC, Canada and Kazakhstan, such as bb.q chicken, BC Council for
+              International Education, Seniors Services Society.
+            </Par>
             <ResumeButton />
           </div>
 
@@ -125,54 +137,18 @@ export default function Home() {
           </Box21>
 
           <div className={styles.cards}>
-            <TechnologyCard
-              img="./js.png"
-              title="JavaScript"
-            />
-            <TechnologyCard
-              img="./ts.png"
-              title="TypeScript"
-            />
-            <TechnologyCard
-              img="./react.png"
-              title="React/React Native"
-            />
-            <TechnologyCard
-              img="./next.png"
-              title="Next.js"
-            />
-            <TechnologyCard
-              img="./node.png"
-              title="Node.js"
-            />
-            <TechnologyCard
-              img="./express.png"
-              title="Express.js"
-            />
-            <TechnologyCard
-              img="./mongo.png"
-              title="MongoDB"
-            />
-            <TechnologyCard
-              img="./php.png"
-              title="PHP"
-            />
-            <TechnologyCard
-              img="./mysql.png"
-              title="MySQL"
-            />
-            <TechnologyCard
-              img="./git.png"
-              title="Git"
-            />
-            <TechnologyCard
-              img="./figma.png"
-              title="Figma"
-            />
-            <TechnologyCard
-              img="./sass.png"
-              title="SASS"
-            />
+            <TechnologyCard img="./js.png" title="JavaScript" />
+            <TechnologyCard img="./ts.png" title="TypeScript" />
+            <TechnologyCard img="./react.png" title="React/React Native" />
+            <TechnologyCard img="./next.png" title="Next.js" />
+            <TechnologyCard img="./node.png" title="Node.js" />
+            <TechnologyCard img="./express.png" title="Express.js" />
+            <TechnologyCard img="./mongo.png" title="MongoDB" />
+            <TechnologyCard img="./php.png" title="PHP" />
+            <TechnologyCard img="./mysql.png" title="MySQL" />
+            <TechnologyCard img="./git.png" title="Git" />
+            <TechnologyCard img="./figma.png" title="Figma" />
+            <TechnologyCard img="./sass.png" title="SASS" />
           </div>
         </div>
 
@@ -192,7 +168,7 @@ export default function Home() {
               prlink="https://netflix-react-b154e.web.app/"
               prpage="https://github.com/raha-the-creator/Netflix-clone"
             /> */}
-            
+
             <ProjectCard
               img="./maulen_website.jpg"
               title="'Brillante Group' Real Estate Agency"
@@ -236,12 +212,14 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className={styles.graphics}>
           <GraphicDesign>
-            <img className={styles.thumbnail} src='./thumbnail.jpg' />
+            <img className={styles.thumbnail} src="./thumbnail.jpg" />
             {/* <GraphicButton href="https://www.behance.net/rakhymzduisek">View Graphic Design Projects</GraphicButton> */}
-            <OtherProject href="https://www.behance.net/rakhymzduisek" target="_blank">
+            <OtherProject
+              href="https://www.behance.net/rakhymzduisek"
+              target="_blank"
+            >
               See Graphic Design and UI/UX projects
             </OtherProject>
           </GraphicDesign>
@@ -265,7 +243,6 @@ export default function Home() {
           />
         </div>
       </div>
-
     </div>
-  )
+  );
 }
