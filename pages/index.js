@@ -99,7 +99,7 @@ export default function Home() {
 
       <div className={styled.wrapper}>
         <div className={styles.navigation}>
-          <NavItem href="https://raduye.vercel.app/projects">Projects</NavItem>
+          <NavItem href="./projects">Projects</NavItem>
           <NavItem href="https://www.behance.net/rakhymzduisek" target="_blank">
             Behance
           </NavItem>

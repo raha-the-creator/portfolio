@@ -51,7 +51,7 @@ export default function Projects() {
       </Head>
 
       <div className={styles.navigation}>
-        <NavItem href="https://raduye.vercel.app">Home</NavItem>
+        <NavItem href="./">Home</NavItem>
         <NavItem href="#contact">Contact</NavItem>
       </div>
 
@@ -142,16 +142,6 @@ export default function Projects() {
               Assisted the team in updating the website as needed.
               Made suggestions to the WCK team to improve the website and implement them as needed. Improvements included, but weren't limited to, adding helpful features, optimizing the website's performance, improving its responsiveness, and improving the user experience through conducting usability testings"
             prlink="https://www.wckfoundation.ca/"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
-          />
-          <Line />
-          <ProjectCard
-            img="./westcoast.png"
-            title="West Point Hotel"
-            year="2021"
-            type="Front-end Development"
-            desc="Term project to develop website using CMS (WordPress). Developed custom theme and added additional features (360 view of the room, etc.)"
-            prlink="http://hoppeyyy.com/west_point_hotel/"
             prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
           />
           <Line />
