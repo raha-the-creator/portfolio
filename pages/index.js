@@ -175,8 +175,8 @@ export default function Home() {
               year="2022"
               type="WordPress + React"
               desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada"
-              prlink="http://18.208.245.83/"
-              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=801%3A91&node-id=801%3A98&viewport=494%2C417%2C0.22&scaling=min-zoom"
+              prlink="http://brillantegroup.ca/"
+              prpage="/"
             />
             <Line />
             <ProjectCard
