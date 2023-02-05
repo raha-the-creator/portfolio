@@ -85,15 +85,6 @@ export default function Projects() {
             prlink="https://beta.bbqchickenca.com/"
           />
           <ProjectCard
-            img="./thriveclub.JPG"
-            title="Vancouver Thrive Club"
-            year="2022"
-            type="WordPress + React"
-            desc="Built with Gutenberg and Kadence blocks"
-            prlink="http://thriveclub.ca/"
-          />
-          <Line />
-          <ProjectCard
             img="./procon.png"
             title="ProCon"
             year="2022"
