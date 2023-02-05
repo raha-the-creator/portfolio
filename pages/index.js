@@ -174,7 +174,7 @@ export default function Home() {
               title="'Brillante Group' Real Estate Agency"
               year="2022"
               type="WordPress + React"
-              desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada"
+              desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
               prlink="http://brillantegroup.ca/"
               prpage="/"
             />

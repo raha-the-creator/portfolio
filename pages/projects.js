@@ -60,7 +60,7 @@ export default function Projects() {
       <br></br>
 
       <div className={styles.prHeader}>
-        <span className={styles.name}>All projects</span>
+        <span className={styles.name}>All projects.</span>
       </div>
 
       <div className={styles.section3}>
