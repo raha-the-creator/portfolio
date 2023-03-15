@@ -170,6 +170,16 @@ export default function Home() {
             /> */}
 
             <ProjectCard
+              img="./generdate.png"
+              title="'GenerDate"
+              year="2023"
+              type="Next.js + REST API"
+              desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
+              prlink="https://github.com/raha-the-creator/generdate"
+              prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
+            />
+            <Line />
+            <ProjectCard
               img="./maulen_website.jpg"
               title="'Brillante Group' Real Estate Agency"
               year="2022"
