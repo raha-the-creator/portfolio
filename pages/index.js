@@ -120,8 +120,8 @@ export default function Home() {
             </Par>
             <Par>
               Experienced freelance developer that worked with big clients in
-              BC, Canada and Kazakhstan, such as bb.q chicken, BC Council for
-              International Education, Seniors Services Society.
+              BC, Canada and Kazakhstan, such as <a href="https://bbqchickenca.com/"><span style={{textDecoration: "underline"}}>bb.q chicken</span></a>, <a href="https://bccie.bc.ca/"><span style={{textDecoration: "underline"}}>BC Council for
+              International Education</span></a>, <a href="https://www.seniorsservicessociety.ca/"><span style={{textDecoration: "underline"}}>Seniors Services Society of BC</span></a>.
             </Par>
             <ResumeButton />
           </div>
