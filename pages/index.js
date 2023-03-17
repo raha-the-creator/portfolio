@@ -175,7 +175,7 @@ export default function Home() {
               year="2023"
               type="Next.js + REST API"
               desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
-              prlink="https://github.com/raha-the-creator/generdate"
+              prlink="https://generdate.vercel.app/"
               prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
             />
             <Line />

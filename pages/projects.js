@@ -66,6 +66,16 @@ export default function Projects() {
       <div className={styles.section3}>
         <div className={styles.projects}>
           <ProjectCard
+            img="./generdate.png"
+            title="'GenerDate"
+            year="2023"
+            type="Next.js + REST API"
+            desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
+            prlink="https://generdate.vercel.app/"
+            prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
+          />
+          <Line />
+          <ProjectCard
             img="./Netflix clone.png"
             title="Netflix Clone"
             year="2022"
