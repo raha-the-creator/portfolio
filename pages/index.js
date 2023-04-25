@@ -132,6 +132,7 @@ export default function Home() {
                   alignItems: "center",
                   justifyContent: "center",
                 }}
+                target="_blank"
               >
                 <img src="./github.svg" />
               </a>
@@ -145,6 +146,7 @@ export default function Home() {
                   alignItems: "center",
                   justifyContent: "center",
                 }}
+                target="_blank"
               >
                 <img src="./linkedin.svg" />
               </a>
@@ -246,7 +248,6 @@ export default function Home() {
               type="Custom WordPress theme | React"
               desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
               prlink="http://brillantegroup.ca/"
-              prpage="/"
             />
             <Line />
             <ProjectCard

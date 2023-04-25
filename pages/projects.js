@@ -70,6 +70,7 @@ export default function Projects() {
           <Wrapper>
             <a
               href="https://github.com/raha-the-creator"
+              target="_blank"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -83,6 +84,7 @@ export default function Projects() {
           <Wrapper>
             <a
               href="https://www.linkedin.com/in/rakhymzhan-duisek/"
+              target="_blank"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -122,7 +124,6 @@ export default function Projects() {
             type="Custom WordPress theme | React"
             desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
             prlink="http://brillantegroup.ca/"
-            prpage="/"
           />
           <Line />
           <ProjectCard
