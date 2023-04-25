@@ -16,6 +16,16 @@ const Line = styled.div`
   height: 1px;
 `;
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+`;
+
 const BackButton = styled.div`
   display: flex;
   align-items: center;
@@ -51,8 +61,39 @@ export default function Projects() {
       </Head>
 
       <div className={styles.navigation}>
-        <NavItem href="./">Home</NavItem>
-        <NavItem href="#contact">Contact</NavItem>
+        <div>
+          <NavItem href="./">Home</NavItem>
+          <NavItem href="https://drive.google.com/file/d/1381OR9R_7kqUu-ZSpUS3xEfDzMdp1v1q/view?usp=sharing">Resume</NavItem>
+        </div>
+
+        <div className={styles.navIcons}>
+          <Wrapper>
+            <a
+              href="https://github.com/raha-the-creator"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img src="./github.svg" />
+            </a>
+          </Wrapper>
+          <Wrapper>
+            <a
+              href="https://www.linkedin.com/in/rakhymzhan-duisek/"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img src="./linkedin.svg" />
+            </a>
+          </Wrapper>
+        </div>
       </div>
 
       <br></br>
@@ -60,7 +101,7 @@ export default function Projects() {
       <br></br>
 
       <div className={styles.prHeader}>
-        <span className={styles.name}>All projects</span>
+        <span className={styles.name}>All projects.</span>
       </div>
 
       <div className={styles.section3}>
@@ -68,18 +109,27 @@ export default function Projects() {
           <ProjectCard
             img="./generdate.png"
             title="GenerDate"
-            year="2023"
-            type="Next.js + REST API"
+            type="Next.js | REST API | Heroku | Tailwind CSS"
             desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
             prlink="https://generdate.vercel.app/"
             prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
           />
           <Line />
           <ProjectCard
+            img="./maulen_website.jpg"
+            title="Brillante Group"
+            year="2022"
+            type="Custom WordPress theme | React"
+            desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
+            prlink="http://brillantegroup.ca/"
+            prpage="/"
+          />
+          <Line />
+          <ProjectCard
             img="./Netflix clone.png"
             title="Netflix Clone"
             year="2022"
-            type="React + Firebase + Tailwind CSS"
+            type="React | Firebase | Tailwind CSS"
             desc="Developed a full-stack application with authentication
               system through Firebase using React.js, Tailwind CSS."
             prlink="https://netflix-react-b154e.web.app/"
@@ -94,21 +144,30 @@ export default function Projects() {
             desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
             prlink="https://beta.bbqchickenca.com/"
           />
+          <Line />
+          <ProjectCard
+            img="./sss.png"
+            title="Seniors Services Society of British Columbia"
+            type="WordPress CMS | Advanced Custom Fields WP plugin"
+            desc="Performance optimization, bugs fix, implementation of custom features ('Housing search' page, etc.)"
+            prlink="https://www.seniorsservicessociety.ca/"
+          />
+          <Line />
           <ProjectCard
             img="./bccie.png"
             title="BC Council for International Education"
             year="2022"
-            type="UI/UX"
+            type="UI/UX | Figma | WordPress custom theme"
             desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
             prlink="https://bccie.bc.ca/"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
+            prpage="https://www.behance.net/gallery/139453527/UIUX-redesign-for-BCCIE"
           />
           <Line />
           <ProjectCard
             img="./oncampus.png"
             title="onCampus food delivery"
             year="2021"
-            type="UI/UX"
+            type="UI/UX | Figma"
             desc="Won 3rd place in BCIT Innovation Challenge and 3rd place at Nourishing Innovation Challenge. Designed additional service in BCIT mobile application to help students who reside in dormitory to receive their groceries on time and accordingly. Source: https://www.linkedin.com/feed/update/urn:li:activity:6820875880559185920/"
             prlink="https://www.figma.com/proto/tmangvaPSepSjvuozsMXdm/onCampus-delivery?page-id=5%3A116&node-id=21%3A1&starting-point-node-id=21%3A1"
             prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
@@ -118,7 +177,7 @@ export default function Projects() {
             img="./wck.png"
             title="West Coast Kids Foundation"
             year="2021"
-            type="Front-end Development"
+            type="CMS | SquareSpace custom theme"
             desc="Worked with WCK team to maintain WCK's website, including but not limited to its functionality and performance.
               Assisted the team in updating the website as needed.
               Made suggestions to the WCK team to improve the website and implement them as needed. Improvements included, but weren't limited to, adding helpful features, optimizing the website's performance, improving its responsiveness, and improving the user experience through conducting usability testings"
@@ -130,7 +189,7 @@ export default function Projects() {
             img="./canadacomputers.png"
             title="Canada Computers"
             year="2020"
-            type="UI/UX"
+            type="UI/UX | Figma"
             desc="Rapid prototyping and complete redesign of Canada Computers. I have contributed into a creating low and high fidelity testings which later on been taken into creating final version of the website."
             prlink="https://www.figma.com/proto/OvgIZAjwznDuaAyAy7p8mh/Canada-Computers-Redesign?page-id=0%3A1&node-id=1%3A2&starting-point-node-id=1%3A2"
             prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"

@@ -26,6 +26,8 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 `;
 
 const Header = styled.p`
@@ -115,7 +117,7 @@ export default function Home() {
             >
               Behance
             </NavItem>
-            <NavItem href="/" target="_blank">
+            <NavItem href="https://drive.google.com/file/d/1381OR9R_7kqUu-ZSpUS3xEfDzMdp1v1q/view?usp=sharing" target="_blank">
               Resume
             </NavItem>
           </div>
@@ -198,15 +200,15 @@ export default function Home() {
           <div className={styles.cards}>
             <TechnologyCard img="./js.png" title="JavaScript" />
             <TechnologyCard img="./ts.png" title="TypeScript" />
-            <TechnologyCard img="./react.png" title="React/React Native" />
+            <TechnologyCard img="./react.png" title="React.js" />
             <TechnologyCard img="./next.png" title="Next.js" />
             <TechnologyCard img="./node.png" title="Node.js" />
             <TechnologyCard img="./express.png" title="Express.js" />
             <TechnologyCard img="./mongo.png" title="MongoDB" />
-            <TechnologyCard img="./php.png" title="PHP" />
             <TechnologyCard img="./mysql.png" title="MySQL" />
+            <TechnologyCard img="./redux.png" title="Redux" />
             <TechnologyCard img="./git.png" title="Git" />
-            <TechnologyCard img="./figma.png" title="Figma" />
+            <TechnologyCard img="./tailwind.png" title="Tailwind CSS" />
             <TechnologyCard img="./sass.png" title="SASS" />
           </div>
         </div>
@@ -231,7 +233,6 @@ export default function Home() {
             <ProjectCard
               img="./generdate.png"
               title="GenerDate"
-              year="2023"
               type="Next.js | REST API | Heroku | Tailwind CSS"
               desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
               prlink="https://generdate.vercel.app/"
@@ -240,7 +241,7 @@ export default function Home() {
             <Line />
             <ProjectCard
               img="./maulen_website.jpg"
-              title="'Brillante Group' Real Estate Agency"
+              title="Brillante Group"
               year="2022"
               type="Custom WordPress theme | React"
               desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
@@ -264,7 +265,6 @@ export default function Home() {
               type="WordPress CMS | Advanced Custom Fields WP plugin"
               desc="Performance optimization, bugs fix, implementation of custom features ('Housing search' page, etc.)"
               prlink="https://www.seniorsservicessociety.ca/"
-              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
             />
           </div>
         </div>
