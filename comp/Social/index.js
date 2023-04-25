@@ -5,7 +5,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5px;
+    margin: 1px;
 `
 
 const SocialLink = (props) => {

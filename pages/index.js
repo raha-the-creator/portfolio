@@ -20,6 +20,14 @@ const Par = styled.p`
   margin-bottom: 20px;
 `;
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+`;
+
 const Header = styled.p`
   font-size: 33px;
   font-family: "Heebo";
@@ -99,11 +107,47 @@ export default function Home() {
 
       <div className={styled.wrapper}>
         <div className={styles.navigation}>
-          <NavItem href="./projects">Projects</NavItem>
-          <NavItem href="https://www.behance.net/rakhymzduisek" target="_blank">
-            Behance
-          </NavItem>
-          <NavItem href="#contact">Contact</NavItem>
+          <div>
+            <NavItem href="./projects">Projects</NavItem>
+            <NavItem
+              href="https://www.behance.net/rakhymzduisek"
+              target="_blank"
+            >
+              Behance
+            </NavItem>
+            <NavItem href="/" target="_blank">
+              Resume
+            </NavItem>
+          </div>
+
+          <div className={styles.navIcons}>
+            <Wrapper>
+              <a
+                href="https://github.com/raha-the-creator"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src="./github.svg" />
+              </a>
+            </Wrapper>
+            <Wrapper>
+              <a
+                href="https://www.linkedin.com/in/rakhymzhan-duisek/"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src="./linkedin.svg" />
+              </a>
+            </Wrapper>
+          </div>
         </div>
 
         <div className={styles.section1} data-aos="fade-down">
@@ -116,12 +160,27 @@ export default function Home() {
               Proficient web developer with 2+ years of experience in corporate
               and start-up environments. Proven knowledge and experience in web
               application development, requirements gathering, stakeholders
-              management, databases, testing, deployment, UI/UX.
-            </Par>
-            <Par>
-              Experienced freelance developer that worked with big clients in
-              BC, Canada and Kazakhstan, such as <a href="https://bbqchickenca.com/"><span style={{textDecoration: "underline"}}>bb.q chicken</span></a>, <a href="https://bccie.bc.ca/"><span style={{textDecoration: "underline"}}>BC Council for
-              International Education</span></a>, <a href="https://www.seniorsservicessociety.ca/"><span style={{textDecoration: "underline"}}>Seniors Services Society of BC</span></a>.
+              management, databases, testing, deployment, UI/UX. Experienced
+              freelance developer that worked with big clients in BC, Canada and
+              Kazakhstan, such as{" "}
+              <a href="https://bbqchickenca.com/">
+                <span style={{ textDecoration: "underline" }}>
+                  bb.q chicken
+                </span>
+              </a>
+              ,{" "}
+              <a href="https://bccie.bc.ca/">
+                <span style={{ textDecoration: "underline" }}>
+                  BC Council for International Education
+                </span>
+              </a>
+              ,{" "}
+              <a href="https://www.seniorsservicessociety.ca/">
+                <span style={{ textDecoration: "underline" }}>
+                  Seniors Services Society of BC
+                </span>
+              </a>
+              .
             </Par>
             <ResumeButton />
           </div>
@@ -171,9 +230,9 @@ export default function Home() {
 
             <ProjectCard
               img="./generdate.png"
-              title="'GenerDate"
+              title="GenerDate"
               year="2023"
-              type="Next.js + REST API"
+              type="Next.js | REST API | Heroku | Tailwind CSS"
               desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
               prlink="https://generdate.vercel.app/"
               prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
@@ -183,7 +242,7 @@ export default function Home() {
               img="./maulen_website.jpg"
               title="'Brillante Group' Real Estate Agency"
               year="2022"
-              type="WordPress + React"
+              type="Custom WordPress theme | React"
               desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
               prlink="http://brillantegroup.ca/"
               prpage="/"
@@ -193,54 +252,24 @@ export default function Home() {
               img="./bbq.png"
               title="BBQ Chicken"
               year="2022"
-              type="WordPress + React"
+              type="Custom WordPress theme | React | Ecommerce"
               desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
-              prlink="https://beta.bbqchickenca.com/"
-              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
+              prlink="https://bbqchickenca.com/"
+              prpage="https://www.figma.com/file/s26JnChkYHqsQJcdyBxRol/Website-UI?node-id=0%3A1&t=eLptcUaaNp1M3EeG-1"
             />
             <Line />
             <ProjectCard
-              img="./procon.png"
-              title="ProCon"
-              year="2022"
-              type="Front-end Development"
-              desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life. I have worked on front-end part of this project (Dashboard, Project Page, components, etc.)"
-              prlink="https://idsp3-procon-test.herokuapp.com/"
+              img="./sss.png"
+              title="Seniors Services Society of British Columbia"
+              type="WordPress CMS | Advanced Custom Fields WP plugin"
+              desc="Performance optimization, bugs fix, implementation of custom features ('Housing search' page, etc.)"
+              prlink="https://www.seniorsservicessociety.ca/"
               prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
             />
-            <Line />
-            <ProjectCard
-              img="./bccie.png"
-              title="BC Council for International Education"
-              year="2022"
-              type="UI/UX"
-              desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
-              prlink="https://www.behance.net/gallery/139453527/UIUX-redesign-for-BCCIE"
-              prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=270%3A121&viewport=241%2C48%2C0.42&scaling=min-zoom"
-            />
-            <Line />
           </div>
         </div>
 
-        <div className={styles.graphics}>
-          <GraphicDesign>
-            <img className={styles.thumbnail} src="./thumbnail.jpg" />
-            {/* <GraphicButton href="https://www.behance.net/rakhymzduisek">View Graphic Design Projects</GraphicButton> */}
-            <OtherProject
-              href="https://www.behance.net/rakhymzduisek"
-              target="_blank"
-            >
-              See Graphic Design and UI/UX projects
-            </OtherProject>
-          </GraphicDesign>
-        </div>
-
         <div className={styles.footer} data-aos="fade-down" id="contact">
-          <SocialLink
-            img="./telegram.svg"
-            title="Telegram"
-            link="https://t.me/rahatherock"
-          />
           <SocialLink
             img="./github.svg"
             title="GitHub"

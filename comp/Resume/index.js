@@ -23,8 +23,8 @@ const ResumeButton = ({}) =>{
 
     return (
     <ButtonWrapper>
-        <a href="https://drive.google.com/file/d/1Bwo6oN_Hb69ewd_lcYAOwJR1O5Vzg2Ud/view?usp=sharing">
-            <Text>See My Resume</Text>
+        <a href="mailto:contact@duisek.kyzylorda@gmail.com">
+            <Text>Reach to me</Text>
         </a>
     </ButtonWrapper>
     )

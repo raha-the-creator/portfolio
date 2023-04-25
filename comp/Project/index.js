@@ -54,6 +54,7 @@ const Time = styled.div`
 const Type = styled.p`
     color: #8695A4;
     font-family: 'Heebo';
+    margin: 0px;
 `
 
 const Line = styled.div`
@@ -71,7 +72,7 @@ const PrTitle = styled.span`
 
 const ProjectText = styled.p`
     padding: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'Heebo';
     font-size: 19px;
 `
@@ -157,16 +158,15 @@ const ProjectCard = (props) => {
                     <ProjectDescM>
                         <PrTitle>{props.title}</PrTitle>
                         <ProjectTags>
-                            <Time>{props.year}</Time>
                             <Type>{props.type}</Type>
                         </ProjectTags>
                         <ProjectText>{props.desc}</ProjectText>
                         <Buttons>
                             <PrBtnCont>
-                                <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
+                                <ProjectLink href={props.prlink} target="_blank">Live site</ProjectLink>
                             </PrBtnCont>
                             <PrBtnCont>
-                                <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
+                                <ProjectPage href={props.prpage} target="_blank">GitHub/Design</ProjectPage>
                             </PrBtnCont>
                         </Buttons>
                     </ProjectDescM>
@@ -181,17 +181,16 @@ const ProjectCard = (props) => {
                     <ProjectDesc>
                         <PrTitle>{props.title}</PrTitle>
                         <ProjectTags>
-                            <Time>{props.year}</Time>
                             <Type>{props.type}</Type>
                         </ProjectTags>
                         <ProjectText>{props.desc}</ProjectText>
 
                         <Buttons>
                             <PrBtnCont>
-                                <ProjectLink href={props.prlink} target="_blank">Demo</ProjectLink>
+                                <ProjectLink href={props.prlink} target="_blank">Live Site</ProjectLink>
                             </PrBtnCont>
                             <PrBtnCont>
-                                <ProjectPage href={props.prpage} target="_blank">Learn more</ProjectPage>
+                                <ProjectPage href={props.prpage} target="_blank">GitHub/Design</ProjectPage>
                             </PrBtnCont>
                         </Buttons>
                     </ProjectDesc>

@@ -67,7 +67,7 @@ export default function Projects() {
         <div className={styles.projects}>
           <ProjectCard
             img="./generdate.png"
-            title="'GenerDate"
+            title="GenerDate"
             year="2023"
             type="Next.js + REST API"
             desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
@@ -95,32 +95,12 @@ export default function Projects() {
             prlink="https://beta.bbqchickenca.com/"
           />
           <ProjectCard
-            img="./procon.png"
-            title="ProCon"
-            year="2022"
-            type="Front-end Development"
-            desc="Procon is a platform that connects developers with industry professionals early on in their development careers. Developers are tired of coding “to-do lists”, basic tutorials and coding problems. They want to get real-life experience in order to prepare themselves for industry life. I have worked on front-end part of this project (Dashboard, Project Page, components, etc.)"
-            prlink="https://idsp3-procon-test.herokuapp.com/"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
-          />
-          <Line />
-          <ProjectCard
             img="./bccie.png"
             title="BC Council for International Education"
             year="2022"
             type="UI/UX"
             desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
             prlink="https://bccie.bc.ca/"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
-          />
-          <Line />
-          <ProjectCard
-            img="./farmtotable.png"
-            title="Farm To Table"
-            year="2021"
-            type="Front-end Development and UI/UX"
-            desc="First project using Next.js. I contributed a lot in designing the mockups and building them using styled-components and Next.js"
-            prlink="https://farmtotable.vercel.app/"
             prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
           />
           <Line />
@@ -160,11 +140,6 @@ export default function Projects() {
       </div>
 
       <div className={styles.footer} data-aos="fade-down" id="contact">
-        <SocialLink
-          img="./telegram.svg"
-          title="Telegram"
-          link="https://t.me/rahatherock"
-        />
         <SocialLink
           img="./github.svg"
           title="GitHub"
