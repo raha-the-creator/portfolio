@@ -117,7 +117,7 @@ export default function Home() {
             >
               Behance
             </NavItem>
-            <NavItem href="https://drive.google.com/file/d/1381OR9R_7kqUu-ZSpUS3xEfDzMdp1v1q/view?usp=sharing" target="_blank">
+            <NavItem href="https://drive.google.com/file/d/1uXRxPxBDGbBHACSLoRH6G_NrMOm-MF-4/view?usp=sharing" target="_blank">
               Resume
             </NavItem>
           </div>
