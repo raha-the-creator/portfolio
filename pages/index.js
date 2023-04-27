@@ -117,7 +117,10 @@ export default function Home() {
             >
               Behance
             </NavItem>
-            <NavItem href="https://drive.google.com/file/d/1uXRxPxBDGbBHACSLoRH6G_NrMOm-MF-4/view?usp=sharing" target="_blank">
+            <NavItem
+              href="https://drive.google.com/file/d/1uXRxPxBDGbBHACSLoRH6G_NrMOm-MF-4/view?usp=sharing"
+              target="_blank"
+            >
               Resume
             </NavItem>
           </div>
@@ -199,9 +202,69 @@ export default function Home() {
             <span className={styles.name}>My Toolkit👨‍💻</span>
           </Box21>
 
-          <div className={styles.cards}>
-            <TechnologyCard img="./js.png" title="JavaScript" />
-            <TechnologyCard img="./ts.png" title="TypeScript" />
+          <div className="bg-red-300">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+              style={{ height: 100 }}
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg"
+              style={{ height: 100 }}
+            />
+
+            {/* <TechnologyCard img="./js.png" title="JavaScript" /> */}
+            {/* <TechnologyCard img="./ts.png" title="TypeScript" />
             <TechnologyCard img="./react.png" title="React.js" />
             <TechnologyCard img="./next.png" title="Next.js" />
             <TechnologyCard img="./node.png" title="Node.js" />
@@ -211,7 +274,7 @@ export default function Home() {
             <TechnologyCard img="./redux.png" title="Redux" />
             <TechnologyCard img="./git.png" title="Git" />
             <TechnologyCard img="./tailwind.png" title="Tailwind CSS" />
-            <TechnologyCard img="./sass.png" title="SASS" />
+            <TechnologyCard img="./sass.png" title="SASS" /> */}
           </div>
         </div>
 
