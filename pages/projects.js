@@ -63,7 +63,7 @@ export default function Projects() {
       <div className={styles.navigation}>
         <div>
           <NavItem href="./">Home</NavItem>
-          <NavItem href="https://drive.google.com/file/d/1381OR9R_7kqUu-ZSpUS3xEfDzMdp1v1q/view?usp=sharing">Resume</NavItem>
+          <NavItem href="https://drive.google.com/file/d/1uXRxPxBDGbBHACSLoRH6G_NrMOm-MF-4/view?usp=sharing">Resume</NavItem>
         </div>
 
         <div className={styles.navIcons}>
@@ -103,7 +103,7 @@ export default function Projects() {
       <br></br>
 
       <div className={styles.prHeader}>
-        <span className={styles.name}>All projects.</span>
+        <span className={styles.name}>All projects</span>
       </div>
 
       <div className={styles.section3}>
