@@ -242,6 +242,15 @@ export default function Home() {
             />
             <Line />
             <ProjectCard
+              img="./qozha.png"
+              title="Qozha - recipes"
+              type="Next.js | Contentful HEADLESS CMS | JAM stack"
+              desc="A web app with content management functionality using Contentful and Next.js"
+              prlink="https://qozha-recipes.vercel.app/"
+              prpage="/"
+            />
+            <Line />
+            <ProjectCard
               img="./maulen_website.jpg"
               title="Brillante Group"
               year="2022"

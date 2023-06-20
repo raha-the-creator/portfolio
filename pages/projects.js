@@ -63,7 +63,12 @@ export default function Projects() {
       <div className={styles.navigation}>
         <div>
           <NavItem href="./">Home</NavItem>
-          <NavItem href="https://drive.google.com/file/d/1uXRxPxBDGbBHACSLoRH6G_NrMOm-MF-4/view?usp=sharing">Resume</NavItem>
+          <NavItem
+            href="https://drive.google.com/file/d/1uXRxPxBDGbBHACSLoRH6G_NrMOm-MF-4/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </NavItem>
         </div>
 
         <div className={styles.navIcons}>
@@ -117,6 +122,15 @@ export default function Projects() {
             prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
           />
           <Line />
+          <ProjectCard
+              img="./qozha.png"
+              title="Qozha - recipes"
+              type="Next.js | Contentful HEADLESS CMS | JAM stack"
+              desc="A web app with content management functionality using Contentful and Next.js"
+              prlink="https://qozha-recipes.vercel.app/"
+              prpage="/"
+            />
+            <Line />
           <ProjectCard
             img="./maulen_website.jpg"
             title="Brillante Group"
