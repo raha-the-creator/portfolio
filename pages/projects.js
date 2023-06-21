@@ -128,7 +128,7 @@ export default function Projects() {
               type="Next.js | Contentful HEADLESS CMS | JAM stack"
               desc="A web app with content management functionality using Contentful and Next.js"
               prlink="https://qozha-recipes.vercel.app/"
-              prpage="/"
+              prpage="https://github.com/raha-the-creator/qozha-recipes"
             />
             <Line />
           <ProjectCard
