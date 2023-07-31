@@ -116,8 +116,8 @@ export default function Projects() {
           <ProjectCard
             img="./generdate.png"
             title="GenerDate"
-            type="Next.js | REST API | Heroku | Tailwind CSS"
-            desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: fitler search, date ideas generator, blog postings."
+            type="Next.js | Contentful Headless CMS |  JAM stack"
+            desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: content management, fitler search, date ideas generator, blog postings."
             prlink="https://generdate.vercel.app/"
             prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
           />
@@ -125,7 +125,7 @@ export default function Projects() {
           <ProjectCard
               img="./qozha.png"
               title="Qozha - recipes"
-              type="Next.js | Contentful HEADLESS CMS | JAM stack"
+              type="Next.js | Contentful Headless CMS | JAM stack"
               desc="A web app with content management functionality using Contentful and Next.js"
               prlink="https://qozha-recipes.vercel.app/"
               prpage="https://github.com/raha-the-creator/qozha-recipes"
