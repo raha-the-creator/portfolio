@@ -125,7 +125,7 @@ export default function Projects() {
           <ProjectCard
               img="./qozha.png"
               title="Qozha - recipes"
-              type="Next.js | Contentful Headless CMS | JAM stack"
+              type="Next.js | Contentful Headless CMS | JAM stack "
               desc="A web app with content management functionality using Contentful and Next.js"
               prlink="https://qozha-recipes.vercel.app/"
               prpage="https://github.com/raha-the-creator/qozha-recipes"
