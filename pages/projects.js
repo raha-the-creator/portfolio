@@ -123,14 +123,14 @@ export default function Projects() {
           />
           <Line />
           <ProjectCard
-              img="./qozha.png"
-              title="Qozha - recipes"
-              type="Next.js | Contentful Headless CMS | JAM stack "
-              desc="A web app with content management functionality using Contentful and Next.js"
-              prlink="https://qozha-recipes.vercel.app/"
-              prpage="https://github.com/raha-the-creator/qozha-recipes"
-            />
-            <Line />
+            img="./music.png"
+            title="VK music scraper and Spotify music importer"
+            type="Playwright.js | Spotify API | Automation"
+            desc="This script allows you to scrap your music from VK and save scraped songs with Spotify API"
+            prlink="https://github.com/raha-the-creator/vkmusic_scraper"
+            prpage="https://github.com/raha-the-creator/vkmusic_scraper"
+          />
+          <Line />
           <ProjectCard
             img="./maulen_website.jpg"
             title="Brillante Group"
