@@ -239,7 +239,7 @@ export default function Home() {
               img="./generdate.png"
               title="GenerDate"
               type="Next.js | Contentful Headless CMS | JAM stack"
-              desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: content management, fitler search, date ideas generator, blog postings."
+              desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: content management, fitler search, date ideas generator, blog postings"
               prlink="https://generdate.vercel.app/"
               prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
             />
