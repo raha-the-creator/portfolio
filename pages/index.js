@@ -111,14 +111,9 @@ export default function Home() {
         <div className={styles.navigation}>
           <div>
             <NavItem href="./projects">Projects</NavItem>
+
             <NavItem
-              href="https://www.behance.net/rakhymzduisek"
-              target="_blank"
-            >
-              Behance
-            </NavItem>
-            <NavItem
-              href="https://drive.google.com/file/d/1q_LzANsZczw9Luv4Kou7YOiNJEvLQuqW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nfFkjFBK5F2W_MU5aWoriX8Je0yrbOvc/view?usp=sharing"
               target="_blank"
             >
               Resume
@@ -162,32 +157,20 @@ export default function Home() {
             <Header>
               Hello, <span className={styles.name}>I am Raha!🐢</span>
             </Header>
-            <span className={styles.name}>Web Developer/UI Designer.</span>
+            <span className={styles.name}>
+              Full-stack developer and QA Engineer.
+            </span>
             <Par>
-              Proficient web developer with 2+ years of experience in corporate
-              and start-up environments. Proven knowledge and experience in web
-              application development, requirements gathering, stakeholders
-              management, databases, testing, deployment, UI/UX. Experienced
-              freelance developer that worked with big clients in BC, Canada and
-              Kazakhstan, such as{" "}
-              <a href="https://bbqchickenca.com/">
-                <span style={{ textDecoration: "underline" }}>
-                  bb.q chicken
-                </span>
-              </a>
-              ,{" "}
-              <a href="https://bccie.bc.ca/">
-                <span style={{ textDecoration: "underline" }}>
-                  BC Council for International Education
-                </span>
-              </a>
-              ,{" "}
-              <a href="https://www.seniorsservicessociety.ca/">
-                <span style={{ textDecoration: "underline" }}>
-                  Seniors Services Society of BC
-                </span>
-              </a>
-              .
+              As a developer and QA engineer with over 2 years of experience in
+              both corporate and start-up environments, I have demonstrated
+              expertise in building and testing software products, managing
+              stakeholder relationships, gathering requirements, deploying, and
+              ensuring top-notch UI/UX. Additionally, I have substantial QA
+              experience, including functional, end-to-end, UI, regression, and
+              smoke testing, as well as reporting bugs and setting up testing
+              environments. My background includes developing innovative
+              applications at ZenShop and performing extensive testing and
+              automation at BMM Testlabs.
             </Par>
             <ResumeButton />
           </div>
