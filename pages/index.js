@@ -161,16 +161,7 @@ export default function Home() {
               Full-stack developer and QA Engineer.
             </span>
             <Par>
-              As a developer and QA engineer with over 2 years of experience in
-              both corporate and start-up environments, I have demonstrated
-              expertise in building and testing software products, managing
-              stakeholder relationships, gathering requirements, deploying, and
-              ensuring top-notch UI/UX. Additionally, I have substantial QA
-              experience, including functional, end-to-end, UI, regression, and
-              smoke testing, as well as reporting bugs and setting up testing
-              environments. My background includes developing innovative
-              applications at ZenShop and performing extensive testing and
-              automation at BMM Testlabs.
+              QA Engineer and Developer with 4 years of combined experience testing AAA games and regulated gaming systems, developing full-stack web applications, and mentoring QA teams in dynamic corporate and start-up environments. Skilled in functional, regression, and compatibility testing, onboarding new testers, and building modern web platforms using the MERN stack. Passionate about driving quality, improving workflows, and fostering collaboration across development and QA teams.
             </Par>
             <ResumeButton />
           </div>

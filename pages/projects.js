@@ -64,7 +64,7 @@ export default function Projects() {
         <div>
           <NavItem href="./">Home</NavItem>
           <NavItem
-            href="https://drive.google.com/file/d/1nfFkjFBK5F2W_MU5aWoriX8Je0yrbOvc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CTkhEkKipxFWjdxhr-Eq85jvD_FWf-dK/view?usp=sharing"
             target="_blank"
           >
             Resume
