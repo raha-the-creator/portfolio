@@ -113,127 +113,6 @@ export default function Projects() {
 
       <div className={styles.section3}>
         <div className={styles.projects}>
-        <div className={styles['project-card']}>
-          <ProjectCard
-            img="./generdate.png"
-            title="GenerDate"
-            type="Next.js | Contentful Headless CMS |  JAM stack"
-              desc="A web app that allows to filter and search for date ideas in Vancouver. Features include: content management, fitler search, date ideas generator, blog postings"
-              prlink="https://generdate.vercel.app/"
-              prpage="https://pyrite-scooter-b10.notion.site/GenerDate-efa28558496a4593b978ebe27399b2d2"
-            />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-            <ProjectCard
-              img="./music.png"
-              title="VK music scraper and Spotify music importer"
-              type="Playwright.js | Spotify API | Automation"
-              desc="This script allows you to scrap your music from VK and save scraped songs with Spotify API"
-              prlink="https://github.com/raha-the-creator/vkmusic_scraper"
-              prpage="https://github.com/raha-the-creator/vkmusic_scraper"
-            />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./maulen_website.jpg"
-            title="Brillante Group"
-            year="2022"
-            type="Custom WordPress theme | React"
-            desc="Real Estate Corporation specializing in acquisitions and development of multi-unit residential apartment buildings across Eastern Canada."
-            prlink="http://brillantegroup.ca/"
-          />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./Netflix clone.png"
-            title="Netflix Clone"
-            year="2022"
-            type="React | Firebase | Tailwind CSS"
-            desc="Developed a full-stack application with authentication
-              system through Firebase using React.js, Tailwind CSS."
-            prlink="https://netflix-react-b154e.web.app/"
-            prpage="https://github.com/raha-the-creator/Netflix-clone"
-          />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-            <ProjectCard
-              img="./bbq.png"
-              title="BBQ Chicken"
-              year="2022"
-              type="WordPress + React"
-              desc="BBQ Chicken is a global fast food franchise restaurants located in over 20 countries. In this project I have built pages using WordPress and React-based plugins (Gutenberg, Kadence blocks). Custom stylings were implemented with variety of methods (styling plugins, stylesheets, etc.)."
-              prlink="https://beta.bbqchickenca.com/"
-            />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./sss.png"
-            title="Seniors Services Society of British Columbia"
-            type="WordPress CMS | Advanced Custom Fields WP plugin"
-            desc="Performance optimization, bugs fix, implementation of custom features ('Housing search' page, etc.)"
-            prlink="https://www.seniorsservicessociety.ca/"
-          />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./bccie.png"
-            title="BC Council for International Education"
-            year="2022"
-            type="UI/UX | Figma | WordPress custom theme"
-            desc="Redesigning and redeveloping the appearance, layout, and flow of the website. Performing updates as required, assisting with creating, publishing, and updating content for BCCIE’s website"
-            prlink="https://bccie.bc.ca/"
-            prpage="https://www.behance.net/gallery/139453527/UIUX-redesign-for-BCCIE"
-          />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./oncampus.png"
-            title="onCampus food delivery"
-            year="2021"
-            type="UI/UX | Figma"
-            desc="Won 3rd place in BCIT Innovation Challenge and 3rd place at Nourishing Innovation Challenge. Designed additional service in BCIT mobile application to help students who reside in dormitory to receive their groceries on time and accordingly. Source: https://www.linkedin.com/feed/update/urn:li:activity:6820875880559185920/"
-            prlink="https://www.figma.com/proto/tmangvaPSepSjvuozsMXdm/onCampus-delivery?page-id=5%3A116&node-id=21%3A1&starting-point-node-id=21%3A1"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
-          />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./wck.png"
-            title="West Coast Kids Foundation"
-            year="2021"
-            type="CMS | SquareSpace custom theme"
-            desc="Worked with WCK team to maintain WCK's website, including but not limited to its functionality and performance.
-              Assisted the team in updating the website as needed.
-              Made suggestions to the WCK team to improve the website and implement them as needed. Improvements included, but weren't limited to, adding helpful features, optimizing the website's performance, improving its responsiveness, and improving the user experience through conducting usability testings"
-            prlink="https://www.wckfoundation.ca/"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
-          />
-          </div>
-          <Line />
-          <div className={styles['project-card']}>
-          <ProjectCard
-            img="./canadacomputers.png"
-            title="Canada Computers"
-            year="2020"
-            type="UI/UX | Figma"
-            desc="Rapid prototyping and complete redesign of Canada Computers. I have contributed into a creating low and high fidelity testings which later on been taken into creating final version of the website."
-            prlink="https://www.figma.com/proto/OvgIZAjwznDuaAyAy7p8mh/Canada-Computers-Redesign?page-id=0%3A1&node-id=1%3A2&starting-point-node-id=1%3A2"
-            prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
-          />
-          </div>
-        </div>
-      </div>
-
-      {/* <div className={styles.section3}>
-        <div className={styles.projects}>
           <ProjectCard
             img="./generdate.png"
             title="GenerDate"
@@ -341,7 +220,7 @@ export default function Projects() {
             prpage="https://www.figma.com/proto/pYEz4vK8vSywHSkhWrronF/portfolio-website?page-id=253%3A68&node-id=253%3A88&viewport=241%2C48%2C0.38&scaling=min-zoom"
           />
         </div>
-      </div> */}
+      </div>
 
       <div className={styles.footer} data-aos="fade-down" id="contact">
         <SocialLink
