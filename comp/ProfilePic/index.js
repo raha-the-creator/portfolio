@@ -6,7 +6,7 @@ const Wrapper = styled.div`
 
 const Picture = styled.img`
     border-radius: 50%;
-    content:url('./new-prof.png');
+    content:url('./profile.jpg');
     width: 250px;
     height: 250px;
     z-index: 1;
