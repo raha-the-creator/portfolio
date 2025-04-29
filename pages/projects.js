@@ -67,7 +67,7 @@ export default function Projects() {
             href="https://drive.google.com/file/d/1CTkhEkKipxFWjdxhr-Eq85jvD_FWf-dK/view?usp=sharing"
             target="_blank"
           >
-            Resume
+            Resume.
           </NavItem>
         </div>
 
