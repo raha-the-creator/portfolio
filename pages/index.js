@@ -110,7 +110,7 @@ export default function Home() {
       <div className={styled.wrapper}>
         <div className={styles.navigation}>
           <div>
-            <NavItem href="./projects">Projects</NavItem>
+            {/* <NavItem href="./projects">Projects</NavItem> */}
 
             <NavItem
               href="https://drive.google.com/file/d/1CTkhEkKipxFWjdxhr-Eq85jvD_FWf-dK/view?usp=sharing"
