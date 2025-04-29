@@ -198,7 +198,7 @@ export default function Home() {
 
         <div className={styles.section3} id="projects">
           <div className={styles.projects}>
-            {/* <ProjectCard
+            <ProjectCard
               img="./Netflix clone.png"
               title="Netflix Clone"
               year="2022"
@@ -207,7 +207,7 @@ export default function Home() {
               system through Firebase using React.js, Tailwind CSS."
               prlink="https://netflix-react-b154e.web.app/"
               prpage="https://github.com/raha-the-creator/Netflix-clone"
-            /> */}
+            />
 
             <ProjectCard
               img="./generdate.png"
